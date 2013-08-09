@@ -13,8 +13,8 @@ return array(
         'GUEST_AUTH_ON'     =>false,    // 是否开启游客授权访问
         'GUEST_AUTH_ID'     =>0,        // 游客的用户ID
         'DB_LIKE_FIELDS'    =>'title|remark',
-        'SHOW_PAGE_TRACE'   =>1,            //显示调试信息
-        'APP_AUTOLOAD_PATH'=>'@.TagLib',
+        'SHOW_PAGE_TRACE'   => 1,            //显示调试信息
+        //'APP_AUTOLOAD_PATH'=>'@.TagLib',
         'TMPL_ACTION_ERROR' => 'Public:error',      //默认错误跳转对应的模板文件  
         'TMPL_ACTION_SUCCESS' => 'Public:success',  //默认成功跳转对应的模板文件
         'VAR_PAGE' => 'p',
