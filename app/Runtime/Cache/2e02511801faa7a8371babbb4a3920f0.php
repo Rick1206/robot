@@ -13,7 +13,7 @@
                 'bpopup': '__PUBLIC__/js/lib/jquery.bpopup.min.js',
                 'carouFredSel':'__PUBLIC__/js/lib/jquery.carouFredSel-6.2.0-packed.js'
             },
-            base:'./public/js',
+            base:'__PUBLIC__/js',
             preload:['jquery']
         });
         seajs.use('china_robot');
@@ -95,89 +95,88 @@
     </div>
     <div class="bg-mask"></div>
 </header>
-<section class="index-banner">
+<div class="pg-head">
   <div class="wrap">
-    <ul>
-      <li data-index="0" >
-        <img class="pic" src="__PUBLIC__/images/pic_04.png" alt=""/>
-      </li>
-      <li data-index="1">
-        <img class="pic" src="__PUBLIC__/images/pic_05.png" alt=""/>
-      </li>
-      <li data-index="2">
-        <img class="pic" src="__PUBLIC__/images/pic_06.png" alt=""/>
-      </li>
-    </ul>
-  </div>
-</section>
-<section class="index-banner-block">
-  <div class="banner-text wrap">
-    <a href="javascript:;" class="index-banner-prev"></a>
-    <a href="javascript:;" class="index-banner-next"></a>
     <div class="short">
       <h1>机器人改变世界 人类新成员</h1>
       <p>自主机器人系列产品整体技术性能达到国内同类产品的先进水平 <br>
         运用于我国汽车、电子电器等行业</p>
       <a href="" class="more">了解更多</a>
     </div>
-    <div class="short">
-      <h1>拓展机器人应用 引领企业战略转型</h1>
-      <p>自主机器人系列产品整体技术性能达到国内同类产品的先进水平<br>
-        运用于我国汽车、电子电器等行业</p>
-      <a href="" class="more">了解更多</a>
+    <div class="short-img"><img src="__PUBLIC__/images/about-short-pic.png" alt=""/></div>
+  </div>
+</div>
+<div class="tab-top">
+  <div class="tabs">
+    <a href="<?php echo U('Index/about');?>" class="selected">园区介绍</a>
+    <a href="<?php echo U('Index/join');?>">加入协会</a>
+  </div>
+  <h1 class="title-line"><span>园区介绍</span><hr></h1>
+</div>
+<div class="about-video">
+  <div class="wrap">
+    <div class="fn-left">
+      <img src="__PUBLIC__/images/video-pic.jpg" alt=""/>
     </div>
-    <div class="short">
-      <h1>拓展机器人应用 引领企业战略转型</h1>
-      <p>自主机器人系列产品整体技术性能达到国内同类产品的先进水平<br>
-        运用于我国汽车、电子电器等行业</p>
-      <a href="" class="more">了解更多</a>
+    <div class="fn-left text-box">
+      <h1>顾村 上海机器人产业园 <br>
+        梦开始的地方</h1>
+      <p>2012年9月20日上海经济和信息化委员会 正式批准建设顾村.上海机器人产业园</p>
     </div>
   </div>
-  <div class="index-banner-ctrl">
-    <div class="wrap row-fluid">
-      <?php for($i=0;$i<3;$i++){?>
-      <div class="span4 index-banner-ctrl-it <?php echo $i==0?'selected':''?>">
-        <div class="span5"><img src="__PUBLIC__/images/pic_0<?php echo $i+1 ?>.png" alt=""/></div>
-        <div class="span7 pt-01">
-          <?php switch($i){ case '0' : ?>
-          <p>输配电方案 <br>
-            我们为增强电网可靠性及预防<br>
-            大停电提供可持续的解决方案
-          </p>
-          <?php
- break; case '1' : ?>
-          <p>车身总拼定位解决方案<br>
-            我们顺应时代需求，推出柔性<br>
-            车身总拼定位解决方案
-          </p>
-          <?php
- break; case '2' : ?>
-          <p>车身总拼定位解决方案 <br>
-            我们顺应时代需求，推出柔性<br>
-            车身总拼定位解决方案
-          </p>
-          <?php } ?>
+</div>
+<div class="about-industrial">
+  <div class="row-fluid">
+    <div class="span2"><img src="__PUBLIC__/images/logo.jpg" alt=""/></div>
+    <div class="span10 pt">
+      <p class="pb">上海机器人产业园紧邻上海绕城高速与宝安公路，通达上海大学2公里、宝山主城区6公里、距上海火车站12公里，虹桥机场18公里。</p>
+      <p>上海机器人产业园是上海市经信委同意建设的第一家机器人产业园区，占地面积达到4635亩，通过引进以机器人为主的智能装备制造企业，逐步淘汰现有低端落后产业，同时通过整机企业带动精密机床、仪器仪表、零部件等相关制造业的发展，并将引导园区内部分传统企业配合机器人产业完成高端生产服务的转型。 根据规划，该园区到2017年要引进国内外机器人制造相关企业机构600家，计划招商引资额度达到200亿元，力争成为中国智能装备制造业的示范基地。</p>
+    </div>
+  </div>
+  <div class="row-fluid pt">
+    <div class="span4">
+      <img src="__PUBLIC__/images/pic_07.jpg" alt=""/>
+      <h1 class="tit">三区</h1>
+      <hr class="hr-bold"/>
+      <ul id="myTab" class="nav-tabs">
+        <li class="active">第一区</li>
+        <li>第二区</li>
+        <li>第三区</li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active">
+          <p>机器人研发及成果转化区：以现有的机器人企业为龙头，向四周延展与扩张，实现以机器人产业为主体的智能装备制造产业集群。逐步形成工业机器人产业园、服务机器人产业园、机器人设计创新园</p>
         </div>
-        <span class="angle"></span>
+        <div class="tab-pane">2</div>
+        <div class="tab-pane">3</div>
       </div>
-      <?php }?>
+    </div>
+    <div class="span4">
+      <img src="__PUBLIC__/images/pic_08.jpg" alt=""/>
+      <h1 class="tit">两轴</h1>
+      <hr class="hr-bold"/>
+      <p class="em">即商务轴与景观轴</p>
+      <p>商务轴是沿友谊西路两侧，打造园区商务办公及交通便捷的主干道 <br>
+        景观轴是联系南北两侧的园区生态景观轴线</p>
+    </div>
+    <div class="span4">
+      <img src="__PUBLIC__/images/pic_09.jpg" alt=""/>
+      <h1 class="tit">一核</h1>
+      <hr class="hr-bold"/>
+      <p class="em">即机器人产业园区公共服务核心区</p>
+      <p>主要建设机器人主题公园、机器人科技大厦、上海机器人博物馆、国际机器人上海展示交易中心、国际机器人上海科技财富论坛、上海机器人研究所、上海机器人学院等</p>
     </div>
   </div>
-</section>
-<section class="dynamic wrap">
-  <h1 class="title-line"><span>设计应用中心动态</span><hr></h1>
-    <div class="row-fluid">
-      <?php for($i=0;$i<3;$i++){?>
-      <div class="span4 index-ref-block">
-        <img src="__PUBLIC__/images/pic.jpg" alt=""/>
-        <p class="title">都市园区服务功能</p>
-        <hr>
-        <p>通过展示、论坛、培训等形式，提高机器人产业园区的发展水平与管理服务能力。包括：园区管理培训和交流、园区星级评定服务等。 </p>
-        <a href="" class="more">了解更多</a>
-      </div>
-      <?php }?>
-    </div>
-</section>
+  <div class="">
+    <p class="pb">
+      上海机器人产业园区的功能定位为一主一辅一配套 <br>
+      即以机器人产业链为核心的产业集群，主要包括汽车、电子、钢铁、航空航天等行业为主的工业机器人和以家庭机器人、医疗机器人等为主的服务机器人，研发关键核心部件制造、机器人应用开发与组装、以及机器人应用技术培训、机器人产业文化等。
+    </p>
+    <p>
+      上海机器人的未来定义了尖端人士的创业梦想。机器人产业园的定位还包括了服务机器人研发、设计、后台服务、软件开发、旅游文化等跟机器人有关的全产业链。
+    </p>
+  </div>
+</div>
 <footer>
     <div class="map-list">
         <div class="wrap">

@@ -1,0 +1,77 @@
+.about-video{
+  width: 100%;
+  background-color: #dfdfdf;
+  .wrap{
+    .clearfix();
+  }
+  .text-box{
+    width: 220px;
+    height: 32px;
+    padding: 95px 0 0 60px;
+    h1{
+      font-family: '微软雅黑';
+      font-weight: normal;
+      font-size: 16px;
+    }
+  }
+}
+.about-industrial{
+  width: @wrapWidth;
+  .container-fixed();
+  padding-top: 30px;
+  padding-bottom: 30px;
+  p.pb{
+    padding-bottom: 10px;
+  }
+  div.pt{
+    padding-top: 30px;
+  }
+  h1.tit{
+    padding: 15px 0;
+    font-weight: normal;
+    font-size: 14px;
+  }
+  .hr-bold{
+    border: none;
+    border-top: 4px solid #000000;
+    width: 300px;
+  }
+  .em{
+    font-size: 12px;
+    color: #747678;
+    line-height: 1;
+    padding: 10px 0;
+  }
+  .span4{
+    padding-bottom: 20px;
+  }
+  .nav-tabs{
+    .clearfix();
+    width: 100%;
+    li{
+      list-style: none;
+      float: left;
+      border-bottom: 1px solid #757678;
+      color: #757678;
+      width: 33%;
+      text-align: center;
+      padding: 5px 0;
+      margin-right: 1px;
+      cursor: pointer;
+      &.active{
+        border-bottom: 1px solid #000000;
+        cursor: default;
+      }
+    }
+  }
+  .tab-content{
+    .tab-pane{
+      display: none;
+      height: 80px;
+      padding: 10px 0;
+      &.active{
+        display: block;
+      }
+    }
+  }
+}

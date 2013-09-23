@@ -226,3 +226,68 @@ footer{
     top: -10px;
   }
 }
+.pg-head{
+  height: 458px;
+  width: 100%;
+  margin-top: -110px;
+  position: relative;
+  z-index: 1;
+  background:#3e3e3e url(../images/index-banner-block-background.jpg) center top no-repeat;
+  overflow: hidden;
+  .wrap{
+    position: relative;
+    height: 100%;
+  }
+  .short{
+    position: absolute;
+    z-index: 2;
+    top: 230px;
+    left: 0px;
+    h1{
+      font-size: 30px;
+      background-color: #211F20;
+      color: #fffffe;
+      float: left;
+      padding: 10px 15px;
+      line-height: 1;
+    }
+    p{
+      clear: both;
+      font-size: 14px;
+      padding: 10px 0;
+      font-weight: bold;
+      color: #000;
+    }
+    .more{
+      color: #fffffe;
+      background-color: #0080ff;
+      text-decoration: none;
+      padding: 7px 40px 7px 10px;
+      line-height: 1;
+    }
+  }
+  .short-img{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+  }
+}
+.tab-top{
+  width: @wrapWidth;
+  .container-fixed();
+  .tabs{
+    text-align: center;
+    padding-top: 30px;
+    a{
+      text-decoration: none;
+      background-color: #5e5e5e;
+      color: #ffffff;
+      padding: 8px 20px;
+      line-height: 1;
+      &.selected{
+        background-color: #0080ff;
+      }
+    }
+  }
+}

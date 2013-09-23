@@ -58,6 +58,7 @@ body {
   font-size: 12px;
   line-height: 1.5;
   background: #fff;
+  color: #525252;
 }
 body.body-color {
   background: #262626;
@@ -833,6 +834,82 @@ footer .footer-end a {
   z-index: 1;
   top: -10px;
 }
+.pg-head {
+  height: 458px;
+  width: 100%;
+  margin-top: -110px;
+  position: relative;
+  z-index: 1;
+  background: #3e3e3e url(../images/index-banner-block-background.jpg) center top no-repeat;
+  overflow: hidden;
+}
+.pg-head .wrap {
+  position: relative;
+  height: 100%;
+}
+.pg-head .short {
+  position: absolute;
+  z-index: 2;
+  top: 230px;
+  left: 0px;
+}
+.pg-head .short h1 {
+  font-size: 30px;
+  background-color: #211F20;
+  color: #fffffe;
+  float: left;
+  padding: 10px 15px;
+  line-height: 1;
+}
+.pg-head .short p {
+  clear: both;
+  font-size: 14px;
+  padding: 10px 0;
+  font-weight: bold;
+  color: #000;
+}
+.pg-head .short .more {
+  color: #fffffe;
+  background-color: #0080ff;
+  text-decoration: none;
+  padding: 7px 40px 7px 10px;
+  line-height: 1;
+}
+.pg-head .short-img {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+}
+.tab-top {
+  width: 968px;
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+.tab-top:before,
+.tab-top:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.tab-top:after {
+  clear: both;
+}
+.tab-top .tabs {
+  text-align: center;
+  padding-top: 30px;
+}
+.tab-top .tabs a {
+  text-decoration: none;
+  background-color: #5e5e5e;
+  color: #ffffff;
+  padding: 8px 20px;
+  line-height: 1;
+}
+.tab-top .tabs a.selected {
+  background-color: #0080ff;
+}
 .index-banner {
   width: 100%;
   min-width: 968px;
@@ -850,6 +927,11 @@ footer .footer-end a {
   position: relative;
   list-style: none;
 }
+.index-banner li img {
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
 .index-banner-block {
   width: 100%;
   min-width: 968px;
@@ -863,8 +945,8 @@ footer .footer-end a {
 .index-banner-block .banner-text .short {
   position: absolute;
   z-index: 2;
-  top: 220px;
-  left: 0;
+  top: 180px;
+  left: 80px;
   display: none;
 }
 .index-banner-block .banner-text .short h1 {
@@ -919,6 +1001,21 @@ footer .footer-end a {
 .index-banner-block .index-banner-ctrl .index-banner-ctrl-it.selected span.angle {
   display: block;
 }
+.index-banner-prev,
+.index-banner-next {
+  background-image: url(../images/arrows.png);
+  width: 73px;
+  height: 88px;
+  position: absolute;
+  top: 170px;
+}
+.index-banner-prev {
+  left: 0;
+}
+.index-banner-next {
+  right: 0;
+  background-position: right top;
+}
 .dynamic {
   color: #545454;
   padding-bottom: 20px;
@@ -940,4 +1037,108 @@ footer .footer-end a {
   color: #fffffe;
   padding: 6px 50px 6px 10px;
   text-decoration: none;
+}
+.about-video {
+  width: 100%;
+  background-color: #dfdfdf;
+}
+.about-video .wrap {
+  *zoom: 1;
+}
+.about-video .wrap:before,
+.about-video .wrap:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.about-video .wrap:after {
+  clear: both;
+}
+.about-video .text-box {
+  width: 220px;
+  height: 32px;
+  padding: 95px 0 0 60px;
+}
+.about-video .text-box h1 {
+  font-family: '微软雅黑';
+  font-weight: normal;
+  font-size: 16px;
+}
+.about-industrial {
+  width: 968px;
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.about-industrial:before,
+.about-industrial:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.about-industrial:after {
+  clear: both;
+}
+.about-industrial p.pb {
+  padding-bottom: 10px;
+}
+.about-industrial div.pt {
+  padding-top: 30px;
+}
+.about-industrial h1.tit {
+  padding: 15px 0;
+  font-weight: normal;
+  font-size: 14px;
+}
+.about-industrial .hr-bold {
+  border: none;
+  border-top: 4px solid #000000;
+  width: 300px;
+}
+.about-industrial .em {
+  font-size: 12px;
+  color: #747678;
+  line-height: 1;
+  padding: 10px 0;
+}
+.about-industrial .span4 {
+  padding-bottom: 20px;
+}
+.about-industrial .nav-tabs {
+  *zoom: 1;
+  width: 100%;
+}
+.about-industrial .nav-tabs:before,
+.about-industrial .nav-tabs:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.about-industrial .nav-tabs:after {
+  clear: both;
+}
+.about-industrial .nav-tabs li {
+  list-style: none;
+  float: left;
+  border-bottom: 1px solid #757678;
+  color: #757678;
+  width: 33%;
+  text-align: center;
+  padding: 5px 0;
+  margin-right: 1px;
+  cursor: pointer;
+}
+.about-industrial .nav-tabs li.active {
+  border-bottom: 1px solid #000000;
+  cursor: default;
+}
+.about-industrial .tab-content .tab-pane {
+  display: none;
+  height: 80px;
+  padding: 10px 0;
+}
+.about-industrial .tab-content .tab-pane.active {
+  display: block;
 }

@@ -13,6 +13,11 @@
     height: 674px;
     position: relative;
     list-style: none;
+    img{
+      position: absolute;
+      top: 0;
+      left: 100px;
+    }
   }
 }
 .index-banner-block{
@@ -26,10 +31,9 @@
     .short{
       position: absolute;
       z-index: 2;
-      top: 220px;
-      left: 0;
+      top: 180px;
+      left: 80px;
       display: none;
-
       h1{
         font-size: 30px;
         background-color: #211F20;
@@ -88,6 +92,20 @@
       }
     }
   }
+}
+.index-banner-prev,.index-banner-next{
+  background-image: url(../images/arrows.png);
+  width: 73px;
+  height: 88px;
+  position: absolute;
+  top: 170px;
+}
+.index-banner-prev{
+  left: 0;
+}
+.index-banner-next{
+  right: 0;
+  background-position: right top;
 }
 .dynamic{
   color: #545454;
