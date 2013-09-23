@@ -54,8 +54,8 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, SimSun;
-  font-size: 14px;
+  font-family: SimSun;
+  font-size: 12px;
   line-height: 1.5;
   background: #fff;
 }
@@ -613,21 +613,43 @@ header .nav-bar .nav ul:after {
 header .nav-bar .nav ul li {
   float: left;
   border-bottom: 1px solid #000000;
-  padding-bottom: 12px;
+  height: 26px;
+  padding-top: 10px;
   margin-left: 1px;
   _display: inline;
+  position: relative;
 }
 header .nav-bar .nav ul li:hover,
 header .nav-bar .nav ul li.selected {
-  border-bottom: 2px solid #0080FF;
+  background-color: #0080FF;
 }
 header .nav-bar .nav ul li a {
-  padding: 0 24px;
+  padding: 0 26px;
   line-height: 1;
   border-left: 1px dotted #a6a6a6;
 }
 header .nav-bar .nav ul li a.first-child {
   border-left: none;
+}
+header .nav-bar .nav ul li:hover .drop-down {
+  display: block;
+}
+header .nav-bar .nav ul li .drop-down {
+  position: absolute;
+  left: 1px;
+  top: 37px;
+  width: 100%;
+  display: none;
+}
+header .nav-bar .nav ul li .drop-down a {
+  border-left: none;
+  background-color: #0080ff;
+  padding: 10px 0 10px 26px;
+  display: block;
+  margin-bottom: 1px;
+}
+header .nav-bar .nav ul li .drop-down a:hover {
+  background-color: #2a5e90;
 }
 header .logo {
   background: url(../images/icons.png) top left no-repeat;

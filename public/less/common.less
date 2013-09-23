@@ -30,18 +30,45 @@ header{
         li{
           float: left;
           border-bottom: 1px solid #000000;
-          padding-bottom: 12px;
+          height: 26px;
+          padding-top: 10px;
           margin-left: 1px;
           _display:inline;
+          position: relative;
           &:hover,&.selected{
-            border-bottom: 2px solid #0080FF;
+//            border-bottom: 2px solid #0080FF;
+            background-color: #0080FF;
           }
           a{
-            padding: 0 24px;
+            padding: 0 26px;
             line-height: 1;
             border-left: 1px dotted #a6a6a6;
             &.first-child{
               border-left: none;
+            }
+          }
+          &:hover{
+            .drop-down{
+              display: block;
+            }
+          }
+          .drop-down{
+            position: absolute;
+            left: 1px;
+            top: 37px;
+            width: 100%;
+
+            display: none;
+            a{
+              border-left: none;
+              background-color: #0080ff;
+              padding:10px 0 10px 26px;
+              display: block;
+              margin-bottom: 1px;
+
+              &:hover{
+                background-color: #2a5e90;
+              }
             }
           }
         }
