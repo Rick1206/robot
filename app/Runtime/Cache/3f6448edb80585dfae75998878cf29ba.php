@@ -5,14 +5,18 @@
     <link rel="stylesheet" href="<?php echo W('Lessc',array(input=>'/public/less/style.less'));?>"/>
     <!--[if lt IE 9]><script type="text/javascript">"abbr,article,aside,audio,bdi,canvas,data,datalist,details,figcaption,figure,footer,header,hgroup,mark,meter,nav,output,progress,section,summary,subline,time,video".replace(/\w+/g,function(n){document.createElement(n)})</script><![endif]-->
     <script type="text/javascript" src="__PUBLIC__/js/lib/sea.js" id="seajsnode"></script>
+
     <script type="text/javascript">
         seajs.config({
             alias: {
                 'jquery': '__PUBLIC__/js/lib/jquery-1.10.2.min.js',
                 'bpopup': '__PUBLIC__/js/lib/jquery.bpopup.min.js',
                 'carouFredSel':'__PUBLIC__/js/lib/jquery.carouFredSel-6.2.0-packed.js'
-            }
+            },
+            base:'./public/js',
+            preload:['jquery']
         });
+        seajs.use('china_robot');
     </script>
 </head>
 <body>
@@ -92,9 +96,86 @@
     <div class="bg-mask"></div>
 </header>
 <section class="index-banner">
-
+  <div class="wrap">
+    <ul>
+      <li>
+        <img class="pic" src="__PUBLIC__/images/pic_04.png" alt=""/>
+      </li>
+      <li>
+        <img class="pic" src="__PUBLIC__/images/pic_05.png" alt=""/>
+      </li>
+      <li>
+        <img class="pic" src="__PUBLIC__/images/pic_06.png" alt=""/>
+      </li>
+    </ul>
+  </div>
 </section>
-<section class="index-banner-block"></section>
+<section class="index-banner-block">
+  <div class="banner-text wrap">
+    <div class="short">
+      <h1>机器人改变世界 人类新成员</h1>
+      <p>自主机器人系列产品整体技术性能达到国内同类产品的先进水平 <br>
+        运用于我国汽车、电子电器等行业</p>
+      <a href="" class="more">了解更多</a>
+    </div>
+    <div class="short">
+      <h1>拓展机器人应用 引领企业战略转型</h1>
+      <p>自主机器人系列产品整体技术性能达到国内同类产品的先进水平<br>
+        运用于我国汽车、电子电器等行业</p>
+      <a href="" class="more">了解更多</a>
+    </div>
+    <div class="short">
+      <h1>拓展机器人应用 引领企业战略转型</h1>
+      <p>自主机器人系列产品整体技术性能达到国内同类产品的先进水平<br>
+        运用于我国汽车、电子电器等行业</p>
+      <a href="" class="more">了解更多</a>
+    </div>
+  </div>
+  <div class="index-banner-ctrl">
+    <div class="wrap row-fluid">
+      <?php for($i=0;$i<3;$i++){?>
+      <div class="span4 index-banner-ctrl-it <?php echo $i==0?'selected':''?>">
+        <div class="span5"><img src="__PUBLIC__/images/pic_0<?php echo $i+1 ?>.png" alt=""/></div>
+        <div class="span7 pt-01">
+          <?php switch($i){ case '0' : ?>
+          <p>输配电方案 <br>
+            我们为增强电网可靠性及预防<br>
+            大停电提供可持续的解决方案
+          </p>
+          <?php
+ break; case '1' : ?>
+          <p>车身总拼定位解决方案<br>
+            我们顺应时代需求，推出柔性<br>
+            车身总拼定位解决方案
+          </p>
+          <?php
+ break; case '2' : ?>
+          <p>车身总拼定位解决方案 <br>
+            我们顺应时代需求，推出柔性<br>
+            车身总拼定位解决方案
+          </p>
+          <?php } ?>
+        </div>
+        <span class="angle"></span>
+      </div>
+      <?php }?>
+    </div>
+  </div>
+</section>
+<section class="dynamic wrap">
+  <h1 class="title-line"><span>设计应用中心动态</span><hr></h1>
+    <div class="row-fluid">
+      <?php for($i=0;$i<3;$i++){?>
+      <div class="span4 index-ref-block">
+        <img src="__PUBLIC__/images/pic.jpg" alt=""/>
+        <p class="title">都市园区服务功能</p>
+        <hr>
+        <p>通过展示、论坛、培训等形式，提高机器人产业园区的发展水平与管理服务能力。包括：园区管理培训和交流、园区星级评定服务等。 </p>
+        <a href="" class="more">了解更多</a>
+      </div>
+      <?php }?>
+    </div>
+</section>
 <footer>
     <div class="map-list">
         <div class="wrap">

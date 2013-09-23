@@ -813,6 +813,26 @@ footer .footer-end a {
   text-decoration: none;
   padding: 0 3px;
 }
+.title-line {
+  font-size: 14px;
+  text-align: center;
+  color: #535353;
+  font-weight: normal;
+  margin: 20px 0;
+  position: relative;
+}
+.title-line span {
+  background-color: #fff;
+  padding: 0 20px;
+  position: relative;
+  z-index: 2;
+}
+.title-line hr {
+  border-top: 1px solid #000000;
+  position: relative;
+  z-index: 1;
+  top: -10px;
+}
 .index-banner {
   width: 100%;
   min-width: 968px;
@@ -822,9 +842,102 @@ footer .footer-end a {
   left: 0;
   z-index: 1;
   background: #151515 url(../images/index-banner-block-background.jpg) no-repeat center;
+  overflow: hidden;
+}
+.index-banner li {
+  width: 968px;
+  height: 674px;
+  position: relative;
+  list-style: none;
 }
 .index-banner-block {
   width: 100%;
   min-width: 968px;
   height: 674px;
+  position: relative;
+  z-index: 2;
+}
+.index-banner-block .banner-text {
+  position: relative;
+}
+.index-banner-block .banner-text .short {
+  position: absolute;
+  z-index: 2;
+  top: 220px;
+  left: 0;
+  display: none;
+}
+.index-banner-block .banner-text .short h1 {
+  font-size: 30px;
+  background-color: #211F20;
+  color: #fffffe;
+  float: left;
+  padding: 10px 15px;
+  line-height: 1;
+}
+.index-banner-block .banner-text .short p {
+  clear: both;
+  font-size: 14px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+.index-banner-block .banner-text .short .more {
+  color: #fffffe;
+  background-color: #0080ff;
+  text-decoration: none;
+  padding: 7px 40px 7px 10px;
+  line-height: 1;
+}
+.index-banner-block .index-banner-ctrl {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 109px;
+  background: url(../images/index-banner-ctrl-bg.jpg) repeat-x;
+  cursor: pointer;
+}
+.index-banner-block .index-banner-ctrl .wrap {
+  padding-top: 8px;
+  color: #ffffff;
+}
+.index-banner-block .index-banner-ctrl .wrap .pt-01 {
+  padding-top: 17px;
+}
+.index-banner-block .index-banner-ctrl .index-banner-ctrl-it {
+  position: relative;
+}
+.index-banner-block .index-banner-ctrl .index-banner-ctrl-it span.angle {
+  width: 77px;
+  height: 27px;
+  background: url(../images/angle.png) no-repeat;
+  position: absolute;
+  top: -26px;
+  left: 120px;
+  display: none;
+}
+.index-banner-block .index-banner-ctrl .index-banner-ctrl-it.selected span.angle {
+  display: block;
+}
+.dynamic {
+  color: #545454;
+  padding-bottom: 20px;
+}
+.dynamic .index-ref-block .title {
+  padding: 15px 0;
+  line-height: 1;
+}
+.dynamic .index-ref-block p {
+  padding: 10px 0 20px 0;
+}
+.dynamic .index-ref-block hr {
+  border: none;
+  border-top: 4px solid #211f20;
+  width: 302px;
+}
+.dynamic .index-ref-block .more {
+  background-color: #000000;
+  color: #fffffe;
+  padding: 6px 50px 6px 10px;
+  text-decoration: none;
 }

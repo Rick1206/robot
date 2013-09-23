@@ -5,14 +5,18 @@
     <link rel="stylesheet" href="{:W('Lessc',array(input=>'/public/less/style.less'))}"/>
     <!--[if lt IE 9]><script type="text/javascript">"abbr,article,aside,audio,bdi,canvas,data,datalist,details,figcaption,figure,footer,header,hgroup,mark,meter,nav,output,progress,section,summary,subline,time,video".replace(/\w+/g,function(n){document.createElement(n)})</script><![endif]-->
     <script type="text/javascript" src="__PUBLIC__/js/lib/sea.js" id="seajsnode"></script>
+
     <script type="text/javascript">
         seajs.config({
             alias: {
                 'jquery': '__PUBLIC__/js/lib/jquery-1.10.2.min.js',
                 'bpopup': '__PUBLIC__/js/lib/jquery.bpopup.min.js',
                 'carouFredSel':'__PUBLIC__/js/lib/jquery.carouFredSel-6.2.0-packed.js'
-            }
+            },
+            base:'./public/js',
+            preload:['jquery']
         });
+        seajs.use('china_robot');
     </script>
 </head>
 <body>
