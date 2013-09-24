@@ -51,25 +51,25 @@
                           <a href="<?php echo U('Index/about');?>">关于我们</a>
                           <div class="drop-down">
                             <a href="<?php echo U('Index/about');?>">园区介绍</a>
-                            <a href="<?php echo U('Index/join');?>">加入协会</a>
+                            <a href="<?php echo U('Index/join_us');?>">加入协会</a>
                           </div>
                         </li>
                         <li>
-                          <a href="">产品展示</a>
+                          <a href="<?php echo U('Index/product');?>">产品展示</a>
                           <div class="drop-down">
-                            <a href="">教育</a>
-                            <a href="">医用</a>
-                            <a href="">益智</a>
-                            <a href="">民用</a>
-                            <a href="">工业 </a>
+                            <a href="<?php echo U('Index/product',array(id=>1));?>">教育</a>
+                            <a href="<?php echo U('Index/product',array(id=>2));?>">医用</a>
+                            <a href="<?php echo U('Index/product',array(id=>3));?>">益智</a>
+                            <a href="<?php echo U('Index/product',array(id=>4));?>">民用</a>
+                            <a href="<?php echo U('Index/product',array(id=>5));?>">工业 </a>
                           </div>
                         </li>
                         <li>
-                          <a href="">专业服务</a>
+                          <a href="<?php echo U('Index/service');?>">专业服务</a>
                           <div class="drop-down">
-                            <a href="">租赁</a>
-                            <a href="">销售</a>
-                            <a href="">转让</a>
+                            <a href="<?php echo U('Index/service',array(id=>1));?>">租赁</a>
+                            <a href="<?php echo U('Index/service',array(id=>2));?>">销售</a>
+                            <a href="<?php echo U('Index/service',array(id=>3));?>">转让</a>
                           </div>
                         </li>
                         <li>
@@ -87,7 +87,7 @@
                             <a href="">资料下载</a>
                           </div>
                         </li>
-                        <li><a href="">联系我们</a></li>
+                        <li><a href="<?php echo U('Index/join_us');?>#contact">联系我们</a></li>
                     </ul>
                 </nav>
             </div>
@@ -256,21 +256,21 @@
                 <li class="first-child">
                     <h1><a href="<?php echo U('Index/about');?>">关于我们</a></h1>
                   <a href="<?php echo U('Index/about');?>">园区介绍</a>
-                  <a href="<?php echo U('Index/join');?>">加入协会</a>
+                  <a href="<?php echo U('Index/join_us');?>">加入协会</a>
                 </li>
                 <li>
-                    <h1><a href="">产品展示</a></h1>
-                    <a href="">教育</a>
-                    <a href="">医用</a>
-                    <a href="">益智</a>
-                    <a href="">民用</a>
-                    <a href="">工业 </a>
+                    <h1><a href="<?php echo U('Index/product');?>">产品展示</a></h1>
+                  <a href="<?php echo U('Index/product',array(id=>1));?>">教育</a>
+                  <a href="<?php echo U('Index/product',array(id=>2));?>">医用</a>
+                  <a href="<?php echo U('Index/product',array(id=>3));?>">益智</a>
+                  <a href="<?php echo U('Index/product',array(id=>4));?>">民用</a>
+                  <a href="<?php echo U('Index/product',array(id=>5));?>">工业 </a>
                 </li>
                 <li>
-                    <h1><a href="">专业服务</a></h1>
-                    <a href="">租赁</a>
-                    <a href="">销售</a>
-                    <a href="">转让</a>
+                    <h1><a href="<?php echo U('Index/service');?>">专业服务</a></h1>
+                    <a href="<?php echo U('Index/service',array(id=>1));?>">租赁</a>
+                    <a href="<?php echo U('Index/service',array(id=>2));?>">销售</a>
+                    <a href="<?php echo U('Index/service',array(id=>3));?>">转让</a>
                 </li>
                 <li>
                     <h1><a href="">专家在线</a></h1>
@@ -284,7 +284,7 @@
                     <a href="">资料下载</a>
                 </li>
                 <li>
-                    <h1><a href="">联系我们</a></h1>
+                    <h1><a href="<?php echo U('Index/join_us');?>#contact">联系我们</a></h1>
                 </li>
             </ul>
             <div class="email">
@@ -303,7 +303,7 @@
                 <a href="">隐私条款</a>
             </div>
             <div class="span6">
-                <span>Copyright Reserved © China Robot industry Design Application Center</span>
+                <span>Copyright Reserved ? China Robot industry Design Application Center</span>
             </div>
             <div class="span3">
                 <span class="s">Powered by <a href="http://www.emporioasia.com.cn/" target="_blank">EmporioAsia</a></span>

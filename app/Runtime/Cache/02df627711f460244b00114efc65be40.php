@@ -95,89 +95,185 @@
     </div>
     <div class="bg-mask"></div>
 </header>
-<section class="index-banner">
+<section class="pg-head">
   <div class="wrap">
-    <ul>
-      <li data-index="0" >
-        <img class="pic" src="__PUBLIC__/images/pic_04.png" alt=""/>
-      </li>
-      <li data-index="1">
-        <img class="pic" src="__PUBLIC__/images/pic_05.png" alt=""/>
-      </li>
-      <li data-index="2">
-        <img class="pic" src="__PUBLIC__/images/pic_06.png" alt=""/>
-      </li>
-    </ul>
-  </div>
-</section>
-<section class="index-banner-block">
-  <div class="banner-text wrap">
-    <a href="javascript:;" class="index-banner-prev"></a>
-    <a href="javascript:;" class="index-banner-next"></a>
     <div class="short">
       <h1>机器人改变世界 人类新成员</h1>
       <p>自主机器人系列产品整体技术性能达到国内同类产品的先进水平 <br>
         运用于我国汽车、电子电器等行业</p>
       <a href="" class="more">了解更多</a>
     </div>
-    <div class="short">
-      <h1>拓展机器人应用 引领企业战略转型</h1>
-      <p>自主机器人系列产品整体技术性能达到国内同类产品的先进水平<br>
-        运用于我国汽车、电子电器等行业</p>
-      <a href="" class="more">了解更多</a>
+    <div class="short-img"><img src="__PUBLIC__/images/about-short-pic02.png" alt=""/></div>
+  </div>
+</section>
+<section class="word-download pg-part-bg">
+  <div class="wrap row-fluid">
+    <div class="span4">
+      <div class="span4">
+        <img src="__PUBLIC__/images/icon-word.png" alt=""/>
+      </div>
+      <div class="span8">
+        <h3>机器人产品交易申请表</h3>
+        <a href="#" target="_blank" class="download">点击下载</a>
+      </div>
     </div>
-    <div class="short">
-      <h1>拓展机器人应用 引领企业战略转型</h1>
-      <p>自主机器人系列产品整体技术性能达到国内同类产品的先进水平<br>
-        运用于我国汽车、电子电器等行业</p>
-      <a href="" class="more">了解更多</a>
+    <div class="span7">
+      <p class="text">上海机器人设计应用中心致力于提供最专业全面的交易信息和服务。您可以通过应用中心轻松提交您的机器人产权转让、销售、和租赁服务。我们在收到您的服务申请后会有专员与您联系，通过审核后即可发布。</p>
     </div>
   </div>
-  <div class="index-banner-ctrl">
-    <div class="wrap row-fluid">
-      <?php for($i=0;$i<3;$i++){?>
-      <div class="span4 index-banner-ctrl-it <?php echo $i==0?'selected':''?>">
-        <div class="span5"><img src="__PUBLIC__/images/pic_0<?php echo $i+1 ?>.png" alt=""/></div>
-        <div class="span7 pt-01">
-          <?php switch($i){ case '0' : ?>
-          <p>输配电方案 <br>
-            我们为增强电网可靠性及预防<br>
-            大停电提供可持续的解决方案
-          </p>
-          <?php
- break; case '1' : ?>
-          <p>车身总拼定位解决方案<br>
-            我们顺应时代需求，推出柔性<br>
-            车身总拼定位解决方案
-          </p>
-          <?php
- break; case '2' : ?>
-          <p>车身总拼定位解决方案 <br>
-            我们顺应时代需求，推出柔性<br>
-            车身总拼定位解决方案
-          </p>
-          <?php } ?>
+</section>
+<section class="tab-top">
+  <div class="tabs">
+    <a href="<?php echo U('Index/service',array(id=>1));?>" class="selected">租赁</a>
+    <a href="<?php echo U('Index/service',array(id=>2));?>">销售</a>
+    <a href="<?php echo U('Index/service',array(id=>3));?>">转让</a>
+  </div>
+</section>
+<section class="applyfor">
+  <div class="wrap">
+    <h1 class="title-line"><span>机器人产品交易申请表</span><hr></h1>
+    <p>以下内容均为必填项，我们会妥善保管您的个人信息和所填内容。</p>
+    <div class="apply-form">
+      <form action="" class="form-horizontal">
+        <h1 class="title-line3">
+          <span>一、交易的产品信息</span><hr>
+        </h1>
+        <div class="row-fluid">
+          <div class="span6 control-group">
+            <label class="control-label">产品名称：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+          <div class="span6">
+            <label class="control-label">型号：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
         </div>
-        <span class="angle"></span>
-      </div>
-      <?php }?>
+        <h1 class="title-line3">
+          <span>二、交易需求</span><hr>
+        </h1>
+        <div class="row-fluid">
+          <div class="span6 control-group">
+            <label class="control-label">机器类别：</label>
+            <div class="controls">
+              <label class="radio inline">
+                <input type="radio" name="pdt-class" value="教育"> 教育
+              </label>
+              <label class="radio inline">
+                <input type="radio" name="pdt-class" value="医用"> 医用
+              </label>
+              <label class="radio inline">
+                <input type="radio" name="pdt-class" value="益智"> 益智
+              </label>
+              <label class="radio inline">
+                <input type="radio" name="pdt-class" value="民用"> 民用
+              </label>
+              <label class="radio inline">
+                <input type="radio" name="pdt-class" value="工业"> 工业
+              </label>
+            </div>
+          </div>
+          <div class="span6 control-group">
+            <label class="control-label">交易类型：</label>
+            <div class="controls">
+              <label class="radio inline">
+                <input type="radio" name="pdt-class2" value="转让"> 转让
+              </label>
+              <label class="radio inline">
+                <input type="radio" name="pdt-class2" value="销售"> 销售
+              </label>
+              <label class="radio inline">
+                <input type="radio" name="pdt-class2" value="租赁"> 租赁
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row-fluid">
+          <div class="span6 control-group">
+            <label class="control-label">需求数量：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+          <div class="span6">
+            <label class="control-label">租赁时长：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+        </div>
+        <div class="row-fluid">
+          <div class="span12 control-group">
+            <label class="control-label">备注说明：</label>
+            <div class="controls">
+              <textarea class="input-block-level" name="" style="height: 80px"></textarea>
+            </div>
+          </div>
+        </div>
+        <h1 class="title-line3">
+          <span>三、申请人信息</span><hr>
+        </h1>
+        <div class="row-fluid">
+          <div class="span6 control-group">
+            <label class="control-label">姓名：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+          <div class="span6">
+            <label class="control-label">职位：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+        </div>
+        <div class="row-fluid">
+          <div class="span6 control-group">
+            <label class="control-label">公司：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+          <div class="span6">
+            <label class="control-label">联系电话：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+        </div>
+        <div class="row-fluid">
+          <div class="span6 control-group">
+            <label class="control-label">联系地址：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+          <div class="span6">
+            <label class="control-label">邮箱：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+        </div>
+        <div class="row-fluid">
+          <div class="span12 text-center">
+            <button class="submit" type="submit">提交申请</button>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
 </section>
-<section class="dynamic wrap">
-  <h1 class="title-line"><span>设计应用中心动态</span><hr></h1>
-    <div class="row-fluid">
-      <?php for($i=0;$i<3;$i++){?>
-      <div class="span4 index-ref-block">
-        <img src="__PUBLIC__/images/pic.jpg" alt=""/>
-        <p class="title">都市园区服务功能</p>
-        <hr>
-        <p>通过展示、论坛、培训等形式，提高机器人产业园区的发展水平与管理服务能力。包括：园区管理培训和交流、园区星级评定服务等。 </p>
-        <a href="" class="more">了解更多</a>
-      </div>
-      <?php }?>
-    </div>
-</section>
+
+
+
+
+
+
+
 <footer>
     <div class="map-list">
         <div class="wrap">

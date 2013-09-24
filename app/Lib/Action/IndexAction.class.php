@@ -9,8 +9,15 @@ class IndexAction extends Action {
 		$this->display();
 	}
 
-	public function join(){
-		$this->display();
+	public function join_us(){
+		$this->display('join');
 	}
 
+    public function product(){
+        $this->display();
+    }
+
+    public function service(){
+        $this->display();
+    }
 }
