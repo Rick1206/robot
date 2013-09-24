@@ -11,7 +11,8 @@
             alias: {
                 'jquery': '__PUBLIC__/js/lib/jquery-1.10.2.min.js',
                 'bpopup': '__PUBLIC__/js/lib/jquery.bpopup.min.js',
-                'carouFredSel':'__PUBLIC__/js/lib/jquery.carouFredSel-6.2.0-packed.js'
+                'carouFredSel':'__PUBLIC__/js/lib/jquery.carouFredSel-6.2.0-packed.js',
+                'dot':'__PUBLIC__/js/lib/doT.min.js'
             },
             base:'__PUBLIC__/js',
             preload:['jquery']
@@ -108,75 +109,68 @@
 </section>
 <section class="tab-top">
   <div class="tabs">
-    <a href="<?php echo U('Index/about');?>" class="selected">园区介绍</a>
-    <a href="<?php echo U('Index/join');?>">加入协会</a>
-  </div>
-  <h1 class="title-line"><span>园区介绍</span><hr></h1>
-</section>
-<section class="about-video pg-part-bg">
-  <div class="wrap">
-    <div class="fn-left">
-      <img src="__PUBLIC__/images/video-pic.jpg" alt=""/>
-    </div>
-    <div class="fn-left text-box">
-      <h1>顾村 上海机器人产业园 <br>
-        梦开始的地方</h1>
-      <p>2012年9月20日上海经济和信息化委员会 正式批准建设顾村.上海机器人产业园</p>
-    </div>
+    <a href="<?php echo U('Index/trends');?>">行业动态</a>
+    <a href="<?php echo U('Index/press');?>" class="selected">公司新闻</a>
+    <a href="<?php echo U('Index/download');?>">资料下载</a>
   </div>
 </section>
-<section class="about-industrial">
+<section class="dynamic wrap">
+  <h1 class="title-line"><span>公司新闻</span><hr></h1>
   <div class="row-fluid">
-    <div class="span2"><img src="__PUBLIC__/images/logo.jpg" alt=""/></div>
-    <div class="span10 pt">
-      <p class="pb">上海机器人产业园紧邻上海绕城高速与宝安公路，通达上海大学2公里、宝山主城区6公里、距上海火车站12公里，虹桥机场18公里。</p>
-      <p>上海机器人产业园是上海市经信委同意建设的第一家机器人产业园区，占地面积达到4635亩，通过引进以机器人为主的智能装备制造企业，逐步淘汰现有低端落后产业，同时通过整机企业带动精密机床、仪器仪表、零部件等相关制造业的发展，并将引导园区内部分传统企业配合机器人产业完成高端生产服务的转型。 根据规划，该园区到2017年要引进国内外机器人制造相关企业机构600家，计划招商引资额度达到200亿元，力争成为中国智能装备制造业的示范基地。</p>
+
+    <div class="span4 index-ref-block">
+      <img src="__PUBLIC__/images/pic.jpg" alt=""/>
+      <p class="title">会说话的机器人 帮助孩子减轻在医院的痛苦</p>
+      <hr>
+      <p>把机器人放在眼睛里做医疗手术可能是下一个创新趋势，苏黎世的研究人员正在建立微型机器人用来帮助精致的手术，机器人有一个可伸缩的针来探测身体部位（眼睛），针的直径只有4分之一毫米 </p>
+      <a href="javascript:;" data-post="<?php echo U('Index/test');?>" class="more more-article">了解更多</a>
     </div>
-  </div>
-  <div class="row-fluid pt">
-    <div class="span4">
-      <img src="__PUBLIC__/images/pic_07.jpg" alt=""/>
-      <h1 class="tit">三区</h1>
-      <hr class="hr-bold"/>
-      <ul id="myTab" class="nav-tabs">
-        <li class="active">第一区</li>
-        <li>第二区</li>
-        <li>第三区</li>
-      </ul>
-      <div class="tab-content">
-        <div class="tab-pane active">
-          <p>机器人研发及成果转化区：以现有的机器人企业为龙头，向四周延展与扩张，实现以机器人产业为主体的智能装备制造产业集群。逐步形成工业机器人产业园、服务机器人产业园、机器人设计创新园</p>
-        </div>
-        <div class="tab-pane">2</div>
-        <div class="tab-pane">3</div>
-      </div>
+    <div class="span4 index-ref-block">
+      <img src="__PUBLIC__/images/pic.jpg" alt=""/>
+      <p class="title">会说话的机器人 帮助孩子减轻在医院的痛苦</p>
+      <hr>
+      <p>把机器人放在眼睛里做医疗手术可能是下一个创新趋势，苏黎世的研究人员正在建立微型机器人用来帮助精致的手术，机器人有一个可伸缩的针来探测身体部位（眼睛），针的直径只有4分之一毫米 </p>
+      <a href="javascript:;" data-post="<?php echo U('Index/test');?>" class="more more-article">了解更多</a>
     </div>
-    <div class="span4">
-      <img src="__PUBLIC__/images/pic_08.jpg" alt=""/>
-      <h1 class="tit">两轴</h1>
-      <hr class="hr-bold"/>
-      <p class="em">即商务轴与景观轴</p>
-      <p>商务轴是沿友谊西路两侧，打造园区商务办公及交通便捷的主干道 <br>
-        景观轴是联系南北两侧的园区生态景观轴线</p>
+    <div class="span4 index-ref-block">
+      <img src="__PUBLIC__/images/pic.jpg" alt=""/>
+      <p class="title">会说话的机器人 帮助孩子减轻在医院的痛苦</p>
+      <hr>
+      <p>把机器人放在眼睛里做医疗手术可能是下一个创新趋势，苏黎世的研究人员正在建立微型机器人用来帮助精致的手术，机器人有一个可伸缩的针来探测身体部位（眼睛），针的直径只有4分之一毫米 </p>
+      <a href="javascript:;" data-post="<?php echo U('Index/test');?>" class="more more-article">了解更多</a>
     </div>
-    <div class="span4">
-      <img src="__PUBLIC__/images/pic_09.jpg" alt=""/>
-      <h1 class="tit">一核</h1>
-      <hr class="hr-bold"/>
-      <p class="em">即机器人产业园区公共服务核心区</p>
-      <p>主要建设机器人主题公园、机器人科技大厦、上海机器人博物馆、国际机器人上海展示交易中心、国际机器人上海科技财富论坛、上海机器人研究所、上海机器人学院等</p>
-    </div>
-  </div>
-  <div class="">
-    <p class="pb">
-      上海机器人产业园区的功能定位为一主一辅一配套 <br>
-      即以机器人产业链为核心的产业集群，主要包括汽车、电子、钢铁、航空航天等行业为主的工业机器人和以家庭机器人、医疗机器人等为主的服务机器人，研发关键核心部件制造、机器人应用开发与组装、以及机器人应用技术培训、机器人产业文化等。
-    </p>
-    <p>
-      上海机器人的未来定义了尖端人士的创业梦想。机器人产业园的定位还包括了服务机器人研发、设计、后台服务、软件开发、旅游文化等跟机器人有关的全产业链。
-    </p>
   </div>
 </section>
+
+<section class="list-block">
+  <div class="wrap">
+    <?php for($i=0;$i<10;$i++){?>
+
+    <?php if($i%2==0){?>
+    <div class="row-fluid">
+      <?php } ?>
+
+      <div class="span6 list-block-item">
+        <div class="span3"><img src="__PUBLIC__/images/default.jpg" alt=""/></div>
+        <div class="span9">
+          <div class="row-fluid tit">
+            <div class="span9"><h1>都市园区服务功能</h1></div>
+            <div class="span3 text-r">2011/08/23 </div>
+          </div>
+          <p>
+            通过展示、论坛、培训等形式，提高机器人产业园区的发展水平与管理服务能力。包括：园区管理培训和交流、园区星级评定服务等。
+          </p>
+        </div>
+      </div>
+
+      <?php if($i%2==1){?>
+    </div>
+    <?php } ?>
+
+    <?php } ?>
+  </div>
+</section>
+
 <footer>
     <div class="map-list">
         <div class="wrap">

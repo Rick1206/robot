@@ -1708,12 +1708,19 @@ footer .footer-end a {
 .title-line3 span {
   position: relative;
   z-index: 2;
+  padding-left: 5px;
 }
 .title-line3 hr {
   border: none;
   border-top: 1px solid #ddd;
   position: relative;
   margin-top: 2px;
+}
+.title-line3 .help-inline {
+  font-style: normal;
+  font-weight: normal;
+  position: relative;
+  top: -2px;
 }
 .pg-head {
   height: 458px;
@@ -2196,6 +2203,10 @@ footer .footer-end a {
 }
 .word-download p.text {
   margin-top: 20px;
+  margin-bottom: 10px;
+}
+.applyfor {
+  padding-bottom: 40px;
 }
 .applyfor .apply-form {
   padding-top: 10px;
@@ -2215,4 +2226,66 @@ footer .footer-end a {
 }
 .applyfor .submit:hover {
   background-color: #757678;
+}
+#faq {
+  padding: 20px 0 40px 0;
+}
+#faq .list {
+  list-style: none;
+}
+#faq .list li {
+  padding: 10px;
+}
+#faq .list .f {
+  border-bottom: 1px solid #DDDDDD;
+  font-size: 12px;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+#faq .list .f h1 {
+  font-size: 12px;
+}
+#faq .list .f .arr {
+  display: block;
+  float: right;
+  width: 20px;
+  height: 20px;
+  background: #ffffff url(../images/icons.png) no-repeat -153px -130px;
+}
+#faq .list .f.active .arr {
+  background-position: -195px -130px;
+}
+#faq .list .q {
+  padding-top: 10px;
+  display: none;
+}
+.pop-article {
+  width: 840px;
+  padding: 80px;
+  background-color: #fff;
+  position: relative;
+}
+.pop-article .close {
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  display: block;
+  background-image: url(../images/close.png);
+}
+.pop-article h1 {
+  font-size: 14px;
+  font-family: '微软雅黑';
+}
+.pop-article hr {
+  border: none;
+  border-top: 4px solid #000000;
+  margin: 10px 0 20px 0;
+}
+.pop-article .article {
+  padding-top: 30px;
 }

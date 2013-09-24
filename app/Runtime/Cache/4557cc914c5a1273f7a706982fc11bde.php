@@ -103,80 +103,126 @@
         运用于我国汽车、电子电器等行业</p>
       <a href="" class="more">了解更多</a>
     </div>
-    <div class="short-img"><img src="__PUBLIC__/images/about-short-pic.png" alt=""/></div>
+    <div class="short-img"><img src="__PUBLIC__/images/about-short-pic03.png" alt=""/></div>
+  </div>
+</section>
+<section class="word-download pg-part-bg">
+  <div class="wrap row-fluid">
+    <span12>
+      <p class="text">上海机器人设计应用中心致力于提供最专业全面的交易信息和服务。您可以通过应用中心轻松提交您的机器人产权转让、销售、和租赁服务。我们在收到您的服务申请后会有专员与您联系，通过审核后即可发布。</p>
+    </span12>
   </div>
 </section>
 <section class="tab-top">
   <div class="tabs">
-    <a href="<?php echo U('Index/about');?>" class="selected">园区介绍</a>
-    <a href="<?php echo U('Index/join');?>">加入协会</a>
+    <a href="<?php echo U('Index/question');?>" class="selected">专业咨询</a>
+    <a href="<?php echo U('Index/faq');?>">专家解答</a>
   </div>
-  <h1 class="title-line"><span>园区介绍</span><hr></h1>
 </section>
-<section class="about-video pg-part-bg">
+<section class="applyfor">
   <div class="wrap">
-    <div class="fn-left">
-      <img src="__PUBLIC__/images/video-pic.jpg" alt=""/>
-    </div>
-    <div class="fn-left text-box">
-      <h1>顾村 上海机器人产业园 <br>
-        梦开始的地方</h1>
-      <p>2012年9月20日上海经济和信息化委员会 正式批准建设顾村.上海机器人产业园</p>
-    </div>
-  </div>
-</section>
-<section class="about-industrial">
-  <div class="row-fluid">
-    <div class="span2"><img src="__PUBLIC__/images/logo.jpg" alt=""/></div>
-    <div class="span10 pt">
-      <p class="pb">上海机器人产业园紧邻上海绕城高速与宝安公路，通达上海大学2公里、宝山主城区6公里、距上海火车站12公里，虹桥机场18公里。</p>
-      <p>上海机器人产业园是上海市经信委同意建设的第一家机器人产业园区，占地面积达到4635亩，通过引进以机器人为主的智能装备制造企业，逐步淘汰现有低端落后产业，同时通过整机企业带动精密机床、仪器仪表、零部件等相关制造业的发展，并将引导园区内部分传统企业配合机器人产业完成高端生产服务的转型。 根据规划，该园区到2017年要引进国内外机器人制造相关企业机构600家，计划招商引资额度达到200亿元，力争成为中国智能装备制造业的示范基地。</p>
-    </div>
-  </div>
-  <div class="row-fluid pt">
-    <div class="span4">
-      <img src="__PUBLIC__/images/pic_07.jpg" alt=""/>
-      <h1 class="tit">三区</h1>
-      <hr class="hr-bold"/>
-      <ul id="myTab" class="nav-tabs">
-        <li class="active">第一区</li>
-        <li>第二区</li>
-        <li>第三区</li>
-      </ul>
-      <div class="tab-content">
-        <div class="tab-pane active">
-          <p>机器人研发及成果转化区：以现有的机器人企业为龙头，向四周延展与扩张，实现以机器人产业为主体的智能装备制造产业集群。逐步形成工业机器人产业园、服务机器人产业园、机器人设计创新园</p>
+    <div class="apply-form">
+      <form action="" class="form-horizontal">
+        <h1 class="title-line3">
+          <span>咨询人个人信息</span><hr>
+        </h1>
+        <div class="row-fluid">
+          <div class="span6 control-group">
+            <label class="control-label">姓名：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+          <div class="span6">
+            <label class="control-label">职位：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
         </div>
-        <div class="tab-pane">2</div>
-        <div class="tab-pane">3</div>
-      </div>
+        <div class="row-fluid">
+          <div class="span6 control-group">
+            <label class="control-label">公司：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+          <div class="span6">
+            <label class="control-label">联系电话：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+        </div>
+        <div class="row-fluid">
+          <div class="span6 control-group">
+            <label class="control-label">联系地址：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+          <div class="span6">
+            <label class="control-label">邮箱：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+        </div>
+        <h1 class="title-line3">
+          <span>咨询问题类别</span><em class="help-inline">以下内容均为必填项，我们会尽快回复收到的咨询。</em><hr>
+        </h1>
+
+        <div class="row-fluid">
+          <div class="span6 control-group">
+            <label class="control-label">问题类别：</label>
+            <div class="controls">
+              <select name="" class="input-block-level">
+                <option value="">机器人使用方法</option>
+              </select>
+            </div>
+          </div>
+          <div class="span6">
+            <label class="control-label">其他类别：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+        </div>
+        <h1 class="title-line3">
+          <span>咨询问题内容</span><hr>
+        </h1>
+        <div class="row-fluid">
+          <div class="span12 control-group">
+            <label class="control-label">向谁提问：</label>
+            <div class="controls">
+              <input type="text"  placeholder="" class="input-block-level">
+            </div>
+          </div>
+        </div>
+        <div class="row-fluid">
+          <div class="span12 control-group">
+            <label class="control-label">问题内容：</label>
+            <div class="controls">
+              <textarea class="input-block-level" name="" style="height: 80px"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="row-fluid">
+          <div class="span12 text-center">
+            <button class="submit" type="submit">提交申请</button>
+          </div>
+        </div>
+      </form>
     </div>
-    <div class="span4">
-      <img src="__PUBLIC__/images/pic_08.jpg" alt=""/>
-      <h1 class="tit">两轴</h1>
-      <hr class="hr-bold"/>
-      <p class="em">即商务轴与景观轴</p>
-      <p>商务轴是沿友谊西路两侧，打造园区商务办公及交通便捷的主干道 <br>
-        景观轴是联系南北两侧的园区生态景观轴线</p>
-    </div>
-    <div class="span4">
-      <img src="__PUBLIC__/images/pic_09.jpg" alt=""/>
-      <h1 class="tit">一核</h1>
-      <hr class="hr-bold"/>
-      <p class="em">即机器人产业园区公共服务核心区</p>
-      <p>主要建设机器人主题公园、机器人科技大厦、上海机器人博物馆、国际机器人上海展示交易中心、国际机器人上海科技财富论坛、上海机器人研究所、上海机器人学院等</p>
-    </div>
-  </div>
-  <div class="">
-    <p class="pb">
-      上海机器人产业园区的功能定位为一主一辅一配套 <br>
-      即以机器人产业链为核心的产业集群，主要包括汽车、电子、钢铁、航空航天等行业为主的工业机器人和以家庭机器人、医疗机器人等为主的服务机器人，研发关键核心部件制造、机器人应用开发与组装、以及机器人应用技术培训、机器人产业文化等。
-    </p>
-    <p>
-      上海机器人的未来定义了尖端人士的创业梦想。机器人产业园的定位还包括了服务机器人研发、设计、后台服务、软件开发、旅游文化等跟机器人有关的全产业链。
-    </p>
   </div>
 </section>
+
+
+
+
+
+
+
 <footer>
     <div class="map-list">
         <div class="wrap">

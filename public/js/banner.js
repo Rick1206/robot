@@ -1,6 +1,4 @@
-define(function(require,exports,modlue){
-
-    require('carouFredSel');
+define(['carouFredSel'],function(require,exports,modlue){
 
     exports.init = function(){
 

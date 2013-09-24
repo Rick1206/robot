@@ -1,0 +1,35 @@
+#faq{
+  padding: 20px 0 40px 0;
+  .list{
+    list-style: none;
+    li{
+      padding: 10px;
+    }
+    .f{
+      border-bottom: 1px solid #DDDDDD;
+      font-size: 12px;
+      line-height: 30px;
+      .text-overflow();
+      cursor: pointer;
+      h1{
+        font-size: 12px;
+      }
+      .arr{
+        display: block;
+        float: right;
+        width: 20px;
+        height: 20px;
+        background:#ffffff url(../images/icons.png) no-repeat -153px -130px;
+      }
+      &.active{
+        .arr{
+          background-position:-195px -130px;
+        }
+      }
+    }
+    .q{
+      padding-top: 10px;
+      display: none;
+    }
+  }
+}
