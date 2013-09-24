@@ -95,7 +95,7 @@
     </div>
     <div class="bg-mask"></div>
 </header>
-<div class="pg-head">
+<section class="pg-head">
   <div class="wrap">
     <div class="short">
       <h1>机器人改变世界 人类新成员</h1>
@@ -105,15 +105,15 @@
     </div>
     <div class="short-img"><img src="__PUBLIC__/images/about-short-pic.png" alt=""/></div>
   </div>
-</div>
-<div class="tab-top">
+</section>
+<section class="tab-top">
   <div class="tabs">
     <a href="<?php echo U('Index/about');?>" class="selected">园区介绍</a>
     <a href="<?php echo U('Index/join');?>">加入协会</a>
   </div>
   <h1 class="title-line"><span>园区介绍</span><hr></h1>
-</div>
-<div class="about-video">
+</section>
+<section class="about-video pg-part-bg">
   <div class="wrap">
     <div class="fn-left">
       <img src="__PUBLIC__/images/video-pic.jpg" alt=""/>
@@ -124,8 +124,8 @@
       <p>2012年9月20日上海经济和信息化委员会 正式批准建设顾村.上海机器人产业园</p>
     </div>
   </div>
-</div>
-<div class="about-industrial">
+</section>
+<section class="about-industrial">
   <div class="row-fluid">
     <div class="span2"><img src="__PUBLIC__/images/logo.jpg" alt=""/></div>
     <div class="span10 pt">
@@ -176,7 +176,7 @@
       上海机器人的未来定义了尖端人士的创业梦想。机器人产业园的定位还包括了服务机器人研发、设计、后台服务、软件开发、旅游文化等跟机器人有关的全产业链。
     </p>
   </div>
-</div>
+</section>
 <footer>
     <div class="map-list">
         <div class="wrap">

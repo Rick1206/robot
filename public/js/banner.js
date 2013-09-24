@@ -33,14 +33,15 @@ define(function(require,exports,modlue){
             })
         });
         function pagination(n){
-            var pos = short.eq(n).show().position();
+//            var pos = short.eq(n).show().position();
             short.hide();
-            short.eq(n).css({
-                opacity:0,
-                left:pos.left-150,
-                top:pos.top-20
-            })
-            short.eq(n).show().animate({left:pos.left,top:pos.top,opacity:1},600);
+//            short.eq(n).css({
+//                opacity:0,
+//                left:pos.left-150,
+//                top:pos.top-20
+//            })
+//            short.eq(n).show().animate({left:pos.left,top:pos.top,opacity:1},600);
+            short.eq(n).delay(800).fadeIn();
             $p.removeClass('selected').eq(n).addClass('selected');
         }
     };

@@ -834,6 +834,24 @@ footer .footer-end a {
   z-index: 1;
   top: -10px;
 }
+.title-line2 {
+  font-size: 14px;
+  text-align: center;
+  color: #535353;
+  font-weight: normal;
+  margin: 20px 0;
+  position: relative;
+}
+.title-line2 span {
+  padding: 0 20px;
+  position: relative;
+  z-index: 2;
+}
+.title-line2 hr {
+  border-top: 1px solid #000000;
+  position: relative;
+  margin-top: 5px;
+}
 .pg-head {
   height: 458px;
   width: 100%;
@@ -910,6 +928,10 @@ footer .footer-end a {
 .tab-top .tabs a.selected {
   background-color: #0080ff;
 }
+.pg-part-bg {
+  width: 100%;
+  background-color: #dfdfdf;
+}
 .index-banner {
   width: 100%;
   min-width: 968px;
@@ -962,6 +984,7 @@ footer .footer-end a {
   font-size: 14px;
   padding: 10px 0;
   font-weight: bold;
+  color: #000;
 }
 .index-banner-block .banner-text .short .more {
   color: #fffffe;
@@ -1037,10 +1060,6 @@ footer .footer-end a {
   color: #fffffe;
   padding: 6px 50px 6px 10px;
   text-decoration: none;
-}
-.about-video {
-  width: 100%;
-  background-color: #dfdfdf;
 }
 .about-video .wrap {
   *zoom: 1;
@@ -1141,4 +1160,51 @@ footer .footer-end a {
 }
 .about-industrial .tab-content .tab-pane.active {
   display: block;
+}
+.association-Introduction {
+  padding: 20px 0 20px 40px;
+}
+.association-Introduction h1 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.association-function {
+  padding: 20px 0;
+}
+.association-function ul {
+  list-style: none;
+}
+.association-services h2 {
+  font-size: 14px;
+}
+.association-services .row-fluid {
+  padding-bottom: 20px;
+}
+#contact {
+  padding-bottom: 40px;
+}
+#contact .way {
+  padding: 222px 0 0 20px;
+}
+.association-services2 {
+  padding-bottom: 40px;
+}
+.association-services2 a.download {
+  color: #525252;
+  text-decoration: none;
+  padding: 5px 0;
+  display: block;
+}
+.association-services2 h3 {
+  margin-top: 35px;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.association-services2 .em {
+  padding-bottom: 20px;
+}
+.association-services2 .steps {
+  padding: 30px 0;
 }

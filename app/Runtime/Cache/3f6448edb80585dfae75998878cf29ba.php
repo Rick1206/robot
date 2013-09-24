@@ -13,7 +13,7 @@
                 'bpopup': '__PUBLIC__/js/lib/jquery.bpopup.min.js',
                 'carouFredSel':'__PUBLIC__/js/lib/jquery.carouFredSel-6.2.0-packed.js'
             },
-            base:'./public/js',
+            base:'__PUBLIC__/js',
             preload:['jquery']
         });
         seajs.use('china_robot');
