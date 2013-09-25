@@ -11,7 +11,8 @@
             alias: {
                 'jquery': '__PUBLIC__/js/lib/jquery-1.10.2.min.js',
                 'bpopup': '__PUBLIC__/js/lib/jquery.bpopup.min.js',
-                'carouFredSel':'__PUBLIC__/js/lib/jquery.carouFredSel-6.2.0-packed.js'
+                'carouFredSel':'__PUBLIC__/js/lib/jquery.carouFredSel-6.2.0-packed.js',
+                'dot':'__PUBLIC__/js/lib/doT.min.js'
             },
             base:'__PUBLIC__/js',
             preload:['jquery']
@@ -32,8 +33,8 @@
                 <div class="login-bar">
                     <div class="l-wrap">
                         <div class="login">
-                            <a href="#" class="first-child">注册</a>
-                            <a href="#">登陆</a>
+                            <a href="#" class="first-child register-s">注册</a>
+                            <a href="javascript:;" class="login-s">登陆</a>
                         </div>
                         <div class="lang"><span class="icon-earth"></span><a href="#" class="tar-lang"><span>English</span></a></div>
                         <div class="search">
@@ -147,7 +148,7 @@
               <input type="text"  placeholder="" class="input-block-level">
             </div>
           </div>
-          <div class="span6">
+          <div class="span6 control-group">
             <label class="control-label">联系电话：</label>
             <div class="controls">
               <input type="text"  placeholder="" class="input-block-level">
@@ -161,7 +162,7 @@
               <input type="text"  placeholder="" class="input-block-level">
             </div>
           </div>
-          <div class="span6">
+          <div class="span6 control-group">
             <label class="control-label">邮箱：</label>
             <div class="controls">
               <input type="text"  placeholder="" class="input-block-level">
@@ -181,7 +182,7 @@
               </select>
             </div>
           </div>
-          <div class="span6">
+          <div class="span6 control-group">
             <label class="control-label">其他类别：</label>
             <div class="controls">
               <input type="text"  placeholder="" class="input-block-level">

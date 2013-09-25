@@ -11,7 +11,8 @@
             alias: {
                 'jquery': '__PUBLIC__/js/lib/jquery-1.10.2.min.js',
                 'bpopup': '__PUBLIC__/js/lib/jquery.bpopup.min.js',
-                'carouFredSel':'__PUBLIC__/js/lib/jquery.carouFredSel-6.2.0-packed.js'
+                'carouFredSel':'__PUBLIC__/js/lib/jquery.carouFredSel-6.2.0-packed.js',
+                'dot':'__PUBLIC__/js/lib/doT.min.js'
             },
             base:'__PUBLIC__/js',
             preload:['jquery']
@@ -32,8 +33,8 @@
                 <div class="login-bar">
                     <div class="l-wrap">
                         <div class="login">
-                            <a href="#" class="first-child">注册</a>
-                            <a href="#">登陆</a>
+                            <a href="#" class="first-child register-s">注册</a>
+                            <a href="javascript:;" class="login-s">登陆</a>
                         </div>
                         <div class="lang"><span class="icon-earth"></span><a href="#" class="tar-lang"><span>English</span></a></div>
                         <div class="search">
@@ -73,18 +74,18 @@
                           </div>
                         </li>
                         <li>
-                          <a href="">专家在线</a>
+                          <a href="<?php echo U('Index/question');?>">专家在线</a>
                           <div class="drop-down">
-                            <a href="">专家咨询</a>
-                            <a href="">专家解答</a>
+                            <a href="<?php echo U('Index/question');?>">专家咨询</a>
+                            <a href="<?php echo U('Index/faq');?>">专家解答</a>
                           </div>
                         </li>
                         <li>
-                          <a href="">媒体关系</a>
+                          <a href="<?php echo U('Index/press');?>">媒体关系</a>
                           <div class="drop-down">
-                            <a href="">行业动态</a>
-                            <a href="">公司新闻</a>
-                            <a href="">资料下载</a>
+                            <a href="<?php echo U('Index/trends');?>">行业动态</a>
+                            <a href="<?php echo U('Index/press');?>">公司新闻</a>
+                            <a href="<?php echo U('Index/download');?>">资料下载</a>
                           </div>
                         </li>
                         <li><a href="<?php echo U('Index/join_us');?>#contact">联系我们</a></li>
@@ -202,15 +203,15 @@
                     <a href="<?php echo U('Index/service',array(id=>3));?>">转让</a>
                 </li>
                 <li>
-                    <h1><a href="">专家在线</a></h1>
-                    <a href="">专家咨询</a>
-                    <a href="">专家解答</a>
+                    <h1><a href="<?php echo U('Index/question');?>">专家在线</a></h1>
+                    <a href="<?php echo U('Index/question');?>">专家咨询</a>
+                    <a href="<?php echo U('Index/faq');?>">专家解答</a>
                 </li>
                 <li>
-                    <h1><a href="">媒体关系</a></h1>
-                    <a href="">行业动态</a>
-                    <a href="">公司新闻</a>
-                    <a href="">资料下载</a>
+                    <h1><a href="<?php echo U('Index/press');?>">媒体关系</a></h1>
+                  <a href="<?php echo U('Index/trends');?>">行业动态</a>
+                  <a href="<?php echo U('Index/press');?>">公司新闻</a>
+                  <a href="<?php echo U('Index/download');?>">资料下载</a>
                 </li>
                 <li>
                     <h1><a href="<?php echo U('Index/join_us');?>#contact">联系我们</a></h1>

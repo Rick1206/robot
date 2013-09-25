@@ -1,4 +1,4 @@
-.pop-article{
+.pop-article,.pop-login,.pop-register{
   width: 1000px - 160px;
   padding: 80px;
   background-color: #fff;
@@ -16,6 +16,21 @@
     font-size: 14px;
     font-family: @yahei;
   }
+  h1.title{
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+  }
+  h2.title{
+    font-size: 12px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    span{
+      font-weight: normal;
+    }
+  }
   hr{
     border: none;
     border-top: 4px solid #000000;
@@ -23,5 +38,26 @@
   }
   .article{
     padding-top: 30px;
+  }
+  .login-box{
+    width: 450px;
+    height: 155px;
+    padding-top: 40px;
+    .container-fixed();
+  }
+  .register-box{
+    padding-top: 40px;
+  }
+  .submit,.reset{
+    display: inline-block;
+    .ie7-inline-block();
+    color: #ffffff;
+    border: none;
+    background-color: #5e5e5e;
+    padding: 7px 35px;
+    line-height: 1;
+  }
+  .submit{
+    background-color: #0080FF;
   }
 }

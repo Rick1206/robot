@@ -1,6 +1,15 @@
 define(function(require,exports,module){
 
+    var pop = require('popup');
+
     $(document).ready(function(){
+
+        pop.init({type:'login'});
+        pop.init({type:'register'});
+
+        if($('.more-article').length>0){
+            pop.init({type:'article'});
+        };
 
         if($('.index-banner').length==1){
             require.async('banner',function(banner){
@@ -20,10 +29,6 @@ define(function(require,exports,module){
             });
         };
 
-        if($('.more-article').length>0){
-            require.async('popup',function(popup){
-                popup.init({type:'article'});
-            });
-        }
+
     });
 });

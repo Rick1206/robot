@@ -2262,13 +2262,17 @@ footer .footer-end a {
   padding-top: 10px;
   display: none;
 }
-.pop-article {
+.pop-article,
+.pop-login,
+.pop-register {
   width: 840px;
   padding: 80px;
   background-color: #fff;
   position: relative;
 }
-.pop-article .close {
+.pop-article .close,
+.pop-login .close,
+.pop-register .close {
   width: 31px;
   height: 31px;
   position: absolute;
@@ -2277,15 +2281,92 @@ footer .footer-end a {
   display: block;
   background-image: url(../images/close.png);
 }
-.pop-article h1 {
+.pop-article h1,
+.pop-login h1,
+.pop-register h1 {
   font-size: 14px;
   font-family: '微软雅黑';
 }
-.pop-article hr {
+.pop-article h1.title,
+.pop-login h1.title,
+.pop-register h1.title {
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 30px;
+}
+.pop-article h2.title,
+.pop-login h2.title,
+.pop-register h2.title {
+  font-size: 12px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.pop-article h2.title span,
+.pop-login h2.title span,
+.pop-register h2.title span {
+  font-weight: normal;
+}
+.pop-article hr,
+.pop-login hr,
+.pop-register hr {
   border: none;
   border-top: 4px solid #000000;
   margin: 10px 0 20px 0;
 }
-.pop-article .article {
+.pop-article .article,
+.pop-login .article,
+.pop-register .article {
   padding-top: 30px;
+}
+.pop-article .login-box,
+.pop-login .login-box,
+.pop-register .login-box {
+  width: 450px;
+  height: 155px;
+  padding-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+.pop-article .login-box:before,
+.pop-article .login-box:after,
+.pop-login .login-box:before,
+.pop-login .login-box:after,
+.pop-register .login-box:before,
+.pop-register .login-box:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.pop-article .login-box:after,
+.pop-login .login-box:after,
+.pop-register .login-box:after {
+  clear: both;
+}
+.pop-article .register-box,
+.pop-login .register-box,
+.pop-register .register-box {
+  padding-top: 40px;
+}
+.pop-article .submit,
+.pop-article .reset,
+.pop-login .submit,
+.pop-login .reset,
+.pop-register .submit,
+.pop-register .reset {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  color: #ffffff;
+  border: none;
+  background-color: #5e5e5e;
+  padding: 7px 35px;
+  line-height: 1;
+}
+.pop-article .submit,
+.pop-login .submit,
+.pop-register .submit {
+  background-color: #0080FF;
 }

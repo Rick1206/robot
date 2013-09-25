@@ -33,8 +33,8 @@
                 <div class="login-bar">
                     <div class="l-wrap">
                         <div class="login">
-                            <a href="#" class="first-child">注册</a>
-                            <a href="#">登陆</a>
+                            <a href="#" class="first-child register-s">注册</a>
+                            <a href="javascript:;" class="login-s">登陆</a>
                         </div>
                         <div class="lang"><span class="icon-earth"></span><a href="#" class="tar-lang"><span>English</span></a></div>
                         <div class="search">
