@@ -21,14 +21,9 @@
         });
         seajs.use('china_robot');
     </script>
-
-<!-- <script language="javascript" src="__PUBLIC__/Js/jquery.js"></script>
-<script language="javascript" src="__PUBLIC__/Plugin/selectbox/selectbox.js">--> 
-<!--下拉菜单美化--> 
 </script>
 <style type="text/css">
 #nav_{$parentCids[0]|default=0}{ 
-	/*font-weight:bolder; color:#F00*/
 	background-color: #0080FF;
 	}
 
@@ -64,7 +59,7 @@
                 <nav class="nav">
                     <ul>
                         <li id="nav_0"><a href="{$Think.config.SITE_URL}/" class="first-child">首页</a></li>
-                         <volist id="vo" name=":ch1('class','0','13','class0:0')">
+                         <volist id="vo" name=":ch1('category','0','13','class0:60')">
 				            <li id="nav_{$vo.classid}">            	           
 				                <a href="{$vo.url}" >{$vo.classtitle}</a>
 				                <?php $vo['sub_nav'] = ch1('class',$vo['classid']);?>

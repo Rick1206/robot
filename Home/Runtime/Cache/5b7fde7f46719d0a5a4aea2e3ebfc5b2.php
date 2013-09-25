@@ -21,14 +21,9 @@
         });
         seajs.use('china_robot');
     </script>
-
-<!-- <script language="javascript" src="__PUBLIC__/Js/jquery.js"></script>
-<script language="javascript" src="__PUBLIC__/Plugin/selectbox/selectbox.js">--> 
-<!--下拉菜单美化--> 
 </script>
 <style type="text/css">
 #nav_<?php echo (($parentCids[0])?($parentCids[0]):0); ?>{ 
-	/*font-weight:bolder; color:#F00*/
 	background-color: #0080FF;
 	}
 
@@ -212,66 +207,39 @@
 	flowplayer("player", "__PUBLIC__/Swf/flowplayer-3.2.16.swf"); 
 </script>
 <footer>
-    <div class="map-list">
-        <div class="wrap">
-            <ul class="list">
-                <li class="first-child">
-                    <h1><a href="<?php echo U('Index/about');?>">关于我们</a></h1>
-                  <a href="<?php echo U('Index/about');?>">园区介绍</a>
-                  <a href="<?php echo U('Index/join_us');?>">加入协会</a>
-                </li>
-                <li>
-                    <h1><a href="<?php echo U('Index/product');?>">产品展示</a></h1>
-                  <a href="<?php echo U('Index/product',array(id=>1));?>">教育</a>
-                  <a href="<?php echo U('Index/product',array(id=>2));?>">医用</a>
-                  <a href="<?php echo U('Index/product',array(id=>3));?>">益智</a>
-                  <a href="<?php echo U('Index/product',array(id=>4));?>">民用</a>
-                  <a href="<?php echo U('Index/product',array(id=>5));?>">工业 </a>
-                </li>
-                <li>
-                    <h1><a href="<?php echo U('Index/service');?>">专业服务</a></h1>
-                    <a href="<?php echo U('Index/service',array(id=>1));?>">租赁</a>
-                    <a href="<?php echo U('Index/service',array(id=>2));?>">销售</a>
-                    <a href="<?php echo U('Index/service',array(id=>3));?>">转让</a>
-                </li>
-                <li>
-                    <h1><a href="<?php echo U('Index/question');?>">专家在线</a></h1>
-                    <a href="<?php echo U('Index/question');?>">专家咨询</a>
-                    <a href="<?php echo U('Index/faq');?>">专家解答</a>
-                </li>
-                <li>
-                    <h1><a href="<?php echo U('Index/press');?>">媒体关系</a></h1>
-                  <a href="<?php echo U('Index/trends');?>">行业动态</a>
-                  <a href="<?php echo U('Index/press');?>">公司新闻</a>
-                  <a href="<?php echo U('Index/download');?>">资料下载</a>
-                </li>
-                <li>
-                    <h1><a href="<?php echo U('Index/join_us');?>#contact">联系我们</a></h1>
-                </li>
-            </ul>
-            <div class="email">
-                <a href="">email</a>
-                <span class="icon-email"></span>
-            </div>
-        </div>
-    </div>
-    <div class="wrap">
-        <div class="row-fluid footer-end">
-            <div class="span3">
-                <a href="">网站地图</a>
-                <span>|</span>
-                <a href="">联系我们</a>
-                <span>|</span>
-                <a href="">隐私条款</a>
-            </div>
-            <div class="span6">
-                <span>Copyright Reserved ? China Robot industry Design Application Center</span>
-            </div>
-            <div class="span3">
-                <span class="s">Powered by <a href="http://www.emporioasia.com.cn/" target="_blank">EmporioAsia</a></span>
-            </div>
-        </div>
-    </div>
+	<div class="map-list">
+		<div class="wrap">
+			<ul class="list">
+				<?php $_result=ch1('category','0','13','class0:0');if(is_array($_result)): $k = 0; $__LIST__ = $_result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><li <?php if($k == '1'): ?>class="first-child"<?php endif; ?>>
+						<h1><a href="<?php echo ($vo["url"]); ?>"><?php echo ($vo["classtitle"]); ?></a></h1>
+						<?php $vo['sub_nav'] = ch1('class',$vo['classid']);?>
+						<?php if(!empty($vo["sub_nav"])): if(is_array($vo["sub_nav"])): $i = 0; $__LIST__ = $vo["sub_nav"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$sub): $mod = ($i % 2 );++$i;?><a href="<?php echo ($sub["url"]); ?>"><?php echo ($sub["classtitle"]); ?></a><?php endforeach; endif; else: echo "" ;endif; endif; ?>
+					</li><?php endforeach; endif; else: echo "" ;endif; ?>
+
+			</ul>
+			<div class="email">
+				<a href="">email</a>
+				<span class="icon-email"></span>
+			</div>
+		</div>
+	</div>
+	<div class="wrap">
+		<div class="row-fluid footer-end">
+			<div class="span3">
+				<a href="">网站地图</a>
+				<span>|</span>
+				<a href="">联系我们</a>
+				<span>|</span>
+				<a href="">隐私条款</a>
+			</div>
+			<div class="span6">
+				<span>Copyright Reserved ? China Robot industry Design Application Center</span>
+			</div>
+			<div class="span3">
+				<span class="s">Powered by <a href="http://www.emporioasia.com.cn/" target="_blank">EmporioAsia</a></span>
+			</div>
+		</div>
+	</div>
 </footer>
 </body>
 </html>
