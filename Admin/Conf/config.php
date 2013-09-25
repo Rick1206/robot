@@ -2,7 +2,7 @@
 $config	=	require './config.php';
 $admin_config	= array(
 	'APP_FILE_CASE'				=>true,				// 是否检查文件的大小写 对Windows平台有效
-    'URL_MODEL'					=>2, 				// 如果你的环境不支持PATHINFO 请设置为3
+    'URL_MODEL'					=>1, 				// 如果你的环境不支持PATHINFO 请设置为3
 	'TMPL_CACHE_ON'				=>true, 			//开启模板缓存
 	'URL_CASE_INSENSITIVE'  	=>true, 			//URL不区分大小写
 	'VAR_PAGE'					=>'pageNum',        //dwz必须是这个名称
