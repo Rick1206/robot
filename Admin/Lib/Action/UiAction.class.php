@@ -109,7 +109,8 @@ class UiAction extends CommonAction {
 		//echo $_SERVER['DOCUMENT_ROOT'].$rootpath;
 		//update by rick
 		$curdomain = strstr($_SERVER['SCRIPT_FILENAME'], '/', true); 
-		$childpath = Dir::getList($curdomain.$rootpath);
+		//$childpath = Dir::getList($curdomain.$rootpath);
+		$childpath = Dir::getList($_SERVER['DOCUMENT_ROOT'].$rootpath);
 		if(!$isfirst){
 			$strClass = ( 0===strpos($rootpath.'/', $roottpl.$usedDefTheme.'/') ) ? ' style="color:#090"' : ' style="color:#777"'; //使用中的高亮，未使用的可以选择但是灰色
 		}
@@ -154,18 +155,13 @@ class UiAction extends CommonAction {
 	public function _before_update(){
 		if($_POST['tplContent']!=''){
 			if(false!==strpos($_POST['tplpath'],'{tplroot}')){
-				//$defrootpath = iconv('utf-8','gbk',$_SERVER['DOCUMENT_ROOT'].__ROOT__.'/Home/Tpl/');
-				$defrootpath = iconv('utf-8','gbk',__ROOT__.'/Home/Tpl/');
+				$defrootpath = iconv('utf-8','gbk',$_SERVER['DOCUMENT_ROOT'].__ROOT__.'/Home/Tpl/');
+				//$defrootpath = iconv('utf-8','gbk',__ROOT__.'/Home/Tpl/');
 				$tplpath = iconv('utf-8','gbk',str_replace('{tplroot}', $defrootpath, $_POST['tplpath']));
 				//先备份原来的模板
 				if($_POST['bakold']){
 					rename( $tplpath, dirname($tplpath).'/'.preg_replace('/^(.+)(\.\w+)$/', '\1_sysbak_'.date('Y-m-d_His').'\2', basename($tplpath)) );
 				}
-				
-				//新增时创建模板总目录下不存在的子目录2012-2-5
-				//echo $tplpath;
-				//return;
-				
 				if( !is_file($tplpath) ){
 					$basedir = dirname($tplpath);
 					if(strlen($basedir) > strlen($defrootpath) && false!==strpos($basedir, $defrootpath)){
