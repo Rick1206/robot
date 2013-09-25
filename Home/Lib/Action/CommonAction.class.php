@@ -117,7 +117,6 @@ class CommonAction extends Action {
     				if(false!==strpos($template,'/')){
     					
     					$strtpl = str_replace(array('{tplroot}','//'), array(__ROOT__.'/Home/Tpl/','/'), $template); //APP_TMPL_PATH
-    					//echo $strtpl;
 					}else{//纯文件名如view3.html
     					$meduleName = MODULE_NAME;
     					if($ary['method']){
