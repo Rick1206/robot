@@ -20,9 +20,17 @@
 </section>
 <section class="tab-top">
 	<div class="tabs">
-
-		<a href="yuanqujieshao.html" class="selected">园区介绍</a>
-		<a href="jiaruxiehui.html">加入协会</a>
+	{~$cid = $App['vars']['id'] ? $App['vars']['id'] : $_GET['id']}
+    {~$childClassList = ch1('class','282')}
+    <notempty name="childClassList">
+     	<volist name="childClassList" id="vo" key='k'>
+    		<a href="{$vo.url}" class="<if condition="($cid eq '282') AND ($k eq '1')">
+    			selected
+    			<elseif condition="$vo['classid'] eq $cid"/>
+    			selected
+    			</if>">{$vo.classtitle}</a>
+    	</volist>
+     </notempty>
 
 	</div>
 	<h1 class="title-line"><span>园区介绍</span>

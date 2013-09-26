@@ -12,65 +12,63 @@
 </section>
 <section class="tab-top">
   <div class="tabs">
-    <a href="{:U('Index/trends')}">行业动态</a>
-    <a href="{:U('Index/press')}" class="selected">公司新闻</a>
-    <a href="{:U('Index/download')}">资料下载</a>
+   {~$cid = $App['vars']['id'] ? $App['vars']['id'] : $_GET['id']}
+    {~$childClassList = ch1('class','294')}
+    <notempty name="childClassList">
+     	<volist name="childClassList" id="vo" key='k'>
+    		<a href="{$vo.url}" class="<if condition="($cid eq '294') AND ($k eq '1')">
+    			selected
+    			<elseif condition="$vo['classid'] eq $cid"/>
+    			selected
+    			</if>">{$vo.classtitle}</a>
+    	</volist>
+     </notempty>
   </div>
 </section>
 <section class="dynamic wrap">
   <h1 class="title-line"><span>公司新闻</span><hr></h1>
   <div class="row-fluid">
+  	{~$hotnews= ch2($cid,'where:attrtj fin 2','limit:0,3')}
+   <volist name="hotnews" id="vo" key='k'>
+    <div class="span4 index-ref-block">
+      <img src="{$vo.img}" alt=""/>
+      <p class="title">{$vo.title}</p>
+      <hr>
+      <p>{$vo.content}</p>
+      <a href="javascript:;" data-post="" class="more more-article">了解更多</a>
+    </div>
+    </volist>
+    
 
-    <div class="span4 index-ref-block">
-      <img src="__PUBLIC__/Theme/Front/images/pic.jpg" alt=""/>
-      <p class="title">会说话的机器人 帮助孩子减轻在医院的痛苦</p>
-      <hr>
-      <p>把机器人放在眼睛里做医疗手术可能是下一个创新趋势，苏黎世的研究人员正在建立微型机器人用来帮助精致的手术，机器人有一个可伸缩的针来探测身体部位（眼睛），针的直径只有4分之一毫米 </p>
-      <a href="javascript:;" data-post="{:U('Index/test')}" class="more more-article">了解更多</a>
-    </div>
-    <div class="span4 index-ref-block">
-      <img src="__PUBLIC__/Theme/Front/images/pic.jpg" alt=""/>
-      <p class="title">会说话的机器人 帮助孩子减轻在医院的痛苦</p>
-      <hr>
-      <p>把机器人放在眼睛里做医疗手术可能是下一个创新趋势，苏黎世的研究人员正在建立微型机器人用来帮助精致的手术，机器人有一个可伸缩的针来探测身体部位（眼睛），针的直径只有4分之一毫米 </p>
-      <a href="javascript:;" data-post="{:U('Index/test')}" class="more more-article">了解更多</a>
-    </div>
-    <div class="span4 index-ref-block">
-      <img src="__PUBLIC__/Theme/Front/images/pic.jpg" alt=""/>
-      <p class="title">会说话的机器人 帮助孩子减轻在医院的痛苦</p>
-      <hr>
-      <p>把机器人放在眼睛里做医疗手术可能是下一个创新趋势，苏黎世的研究人员正在建立微型机器人用来帮助精致的手术，机器人有一个可伸缩的针来探测身体部位（眼睛），针的直径只有4分之一毫米 </p>
-      <a href="javascript:;" data-post="{:U('Index/test')}" class="more more-article">了解更多</a>
-    </div>
   </div>
 </section>
 
 <section class="list-block">
   <div class="wrap">
-    <?php for($i=0;$i<10;$i++){?>
 
-    <?php if($i%2==0){?>
+<volist name=":ch2($cid)" id="vo" key='k'>
+    <if condition="($k%2==1)">
     <div class="row-fluid">
-      <?php } ?>
-
+      </if>
       <div class="span6 list-block-item">
-        <div class="span3"><img src="__PUBLIC__/Theme/Front/images/default.jpg" alt=""/></div>
+        <div class="span3"><img src="{$vo.img}" alt=""/></div>
         <div class="span9">
           <div class="row-fluid tit">
-            <div class="span9"><h1>都市园区服务功能</h1></div>
-            <div class="span3 text-r">2011/08/23 </div>
+            <div class="span9"><h1>{$vo.title}</h1></div>
+            <div class="span3 text-r">{$vo.add_time|date='Y/m/d',###}</div>
           </div>
           <p>
-            通过展示、论坛、培训等形式，提高机器人产业园区的发展水平与管理服务能力。包括：园区管理培训和交流、园区星级评定服务等。
+            {$vo.content|encode=60}
           </p>
         </div>
       </div>
+      <if condition="($k%2==2)">
+    	</div>
+    </if>
 
-      <?php if($i%2==1){?>
-    </div>
-    <?php } ?>
-
-    <?php } ?>
+    </volist>
   </div>
 </section>
+
+
 <include file="Public:footer" />

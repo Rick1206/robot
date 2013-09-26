@@ -78,132 +78,63 @@
 </header>
 
 
-<section class="index-banner">
-	<div class="wrap">
-		<ul>
-			<li data-index="0" >
-				<img class="pic" src="__PUBLIC__/Theme/Front/images/pic_04.png" alt=""/>
-			</li>
-			<li data-index="1">
-				<img class="pic" src="__PUBLIC__/Theme/Front/images/pic_05.png" alt=""/>
-			</li>
-			<li data-index="2">
-				<img class="pic" src="__PUBLIC__/Theme/Front/images/pic_06.png" alt=""/>
-			</li>
-		</ul>
-	</div>
+<section class="pg-head">
+  <div class="wrap">
+    <div class="short">
+      <h1>机器人改变世界 人类新成员</h1>
+      <p>自主机器人系列产品整体技术性能达到国内同类产品的先进水平 <br>
+        运用于我国汽车、电子电器等行业</p>
+      <a href="" class="more">了解更多</a>
+    </div>
+    <div class="short-img"><img src="__PUBLIC__/Theme/Front/images/about-short-pic.png" alt=""/></div>
+  </div>
 </section>
-<section class="index-banner-block">
-	<div class="banner-text wrap">
-		<a href="javascript:;" class="index-banner-prev"></a>
-		<a href="javascript:;" class="index-banner-next"></a>
-		<div class="short">
-			<h1>机器人改变世界 人类新成员</h1>
-			<p>
-				自主机器人系列产品整体技术性能达到国内同类产品的先进水平
-				<br>
-				运用于我国汽车、电子电器等行业
-			</p>
-			<a href="" class="more">了解更多</a>
-		</div>
-		<div class="short">
-			<h1>拓展机器人应用 引领企业战略转型</h1>
-			<p>
-				自主机器人系列产品整体技术性能达到国内同类产品的先进水平
-				<br>
-				运用于我国汽车、电子电器等行业
-			</p>
-			<a href="" class="more">了解更多</a>
-		</div>
-		<div class="short">
-			<h1>拓展机器人应用 引领企业战略转型</h1>
-			<p>
-				自主机器人系列产品整体技术性能达到国内同类产品的先进水平
-				<br>
-				运用于我国汽车、电子电器等行业
-			</p>
-			<a href="" class="more">了解更多</a>
-		</div>
-	</div>
-	<div class="index-banner-ctrl">
-		<div class="wrap row-fluid">
-			<?php for($i=0;$i<3;$i++){?>
-			<div class="span4 index-banner-ctrl-it <?php echo $i==0?'selected':''?>">
-				<div class="span5"><img src="__PUBLIC__/Theme/Front/images/pic_0<?php echo $i+1 ?>.png" alt=""/>
-				</div>
-				<div class="span7 pt-01">
-					<?php switch($i){ case '0' : ?>
-					<p>
-						输配电方案
-						<br>
-						我们为增强电网可靠性及预防
-						<br>
-						大停电提供可持续的解决方案
-					</p>
-					<?php
- break; case '1' : ?>
-					<p>
-						车身总拼定位解决方案
-						<br>
-						我们顺应时代需求，推出柔性
-						<br>
-						车身总拼定位解决方案
-					</p>
-					<?php
- break; case '2' : ?>
-					<p>
-						车身总拼定位解决方案
-						<br>
-						我们顺应时代需求，推出柔性
-						<br>
-						车身总拼定位解决方案
-					</p>
-					<?php } ?>
-				</div>
-				<span class="angle"></span>
-			</div>
-			<?php }?>
-		</div>
-	</div>
+<section class="tab-top">
+  <div class="tabs">
+   <?php $cid = $App['vars']['id'] ? $App['vars']['id'] : $_GET['id'];?>
+    <?php $childClassList = ch1('class','294');?>
+    <?php if(!empty($childClassList)): if(is_array($childClassList)): $k = 0; $__LIST__ = $childClassList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><a href="<?php echo ($vo["url"]); ?>" class="<?php if(($cid == '294') AND ($k == '1')): ?>selected
+    			<?php elseif($vo['classid'] == $cid): ?>
+    			selected<?php endif; ?>"><?php echo ($vo["classtitle"]); ?></a><?php endforeach; endif; else: echo "" ;endif; endif; ?>
+  </div>
 </section>
 <section class="dynamic wrap">
-	<h1 class="title-line"><span>设计应用中心动态</span>
-	<hr>
-	</h1>
-	<div class="row-fluid">
+  <h1 class="title-line"><span>公司新闻</span><hr></h1>
+  <div class="row-fluid">
+  	<?php $hotnews= ch2($cid,'where:attrtj fin 2','limit:0,3');?>
+   <?php if(is_array($hotnews)): $k = 0; $__LIST__ = $hotnews;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><div class="span4 index-ref-block">
+      <img src="<?php echo ($vo["img"]); ?>" alt=""/>
+      <p class="title"><?php echo ($vo["title"]); ?></p>
+      <hr>
+      <p><?php echo ($vo["content"]); ?></p>
+      <a href="javascript:;" data-post="" class="more more-article">了解更多</a>
+    </div><?php endforeach; endif; else: echo "" ;endif; ?>
+    
 
-		<!-- attrtj -->
-
-		<!-- ch2('article','field:id,img,title,rewrite','where:arrtt fin 1,2 and img!=""','order:sort DESC,add_time DESC','limit:0,1','cache:Index_SlideNews:3','debug') -->
-
-		<?php $_result=ch2('article','294','where:attrtj fin 1','order:sort DESC,add_time DESC','limit:0,3','cache:IndexNews:30');if(is_array($_result)): $i = 0; $__LIST__ = $_result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="span4 index-ref-block">
-				<img src="<?php echo ($vo["img"]); ?>" alt=""/>
-				<p class="title">
-					<?php echo ($vo["title"]); ?>
-				</p>
-				<hr>
-				<p>
-					<?php echo ($vo["description"]); ?>
-				</p>
-				<a href="<?php echo ($vo["url"]); ?>" class="more">了解更多</a>
-			</div><?php endforeach; endif; else: echo "" ;endif; ?>
-		<!-- <div class="span4 index-ref-block">
-		<img src="__PUBLIC__/Theme/Front/images/pic.jpg" alt=""/>
-		<p class="title">都市园区服务功能</p>
-		<hr>
-		<p>通过展示、论坛、培训等形式，提高机器人产业园区的发展水平与管理服务能力。包括：园区管理培训和交流、园区星级评定服务等。 </p>
-		<a href="jiaruxiehui.html" class="more">了解更多</a>
-		</div>
-
-		<div class="span4 index-ref-block">
-		<img src="__PUBLIC__/Theme/Front/images/pic.jpg" alt=""/>
-		<p class="title">都市园区服务功能</p>
-		<hr>
-		<p>通过展示、论坛、培训等形式，提高机器人产业园区的发展水平与管理服务能力。包括：园区管理培训和交流、园区星级评定服务等。 </p>
-		<a href="meitiguanxi.html" class="more">了解更多</a>
-		</div> -->
-	</div>
+  </div>
 </section>
+
+<section class="list-block">
+  <div class="wrap">
+
+<?php $_result=ch2($cid);if(is_array($_result)): $k = 0; $__LIST__ = $_result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if(($k%2==1)): ?><div class="row-fluid"><?php endif; ?>
+      <div class="span6 list-block-item">
+        <div class="span3"><img src="<?php echo ($vo["img"]); ?>" alt=""/></div>
+        <div class="span9">
+          <div class="row-fluid tit">
+            <div class="span9"><h1><?php echo ($vo["title"]); ?></h1></div>
+            <div class="span3 text-r"><?php echo (date('Y/m/d',$vo["add_time"])); ?></div>
+          </div>
+          <p>
+            <?php echo (encode($vo["content"],60)); ?>
+          </p>
+        </div>
+      </div>
+      <?php if(($k%2==2)): ?></div><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+  </div>
+</section>
+
+
 <footer>
 	<div class="map-list">
 		<div class="wrap">

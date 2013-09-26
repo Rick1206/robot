@@ -28,9 +28,19 @@
 </section>
 <section class="tab-top">
   <div class="tabs">
-    <a href="{:U('Index/service',array(id=>1))}" class="selected">租赁</a>
-    <a href="{:U('Index/service',array(id=>2))}">销售</a>
-    <a href="{:U('Index/service',array(id=>3))}">转让</a>
+  	
+  	{~$cid = $App['vars']['id'] ? $App['vars']['id'] : $_GET['id']}
+    {~$childClassList = ch1('class','292')}
+    <notempty name="childClassList">
+     	<volist name="childClassList" id="vo" key='k'>
+    		<a href="{$vo.url}" class="<if condition="($cid eq '292') AND ($k eq '1')">
+    			selected
+    			<elseif condition="$vo['classid'] eq $cid"/>
+    			selected
+    			</if>">{$vo.classtitle}</a>
+    	</volist>
+     </notempty>
+    
   </div>
 </section>
 <section class="applyfor">
@@ -83,15 +93,23 @@
           <div class="span6 control-group">
             <label class="control-label">交易类型：</label>
             <div class="controls">
-              <label class="radio inline">
-                <input type="radio" name="pdt-class2" value="转让"> 转让
+		     <notempty name="childClassList">
+		     	<volist name="childClassList" id="vo" key='k'>
+		    	<label class="radio inline">
+                <input type="radio" name="pdt-class2"
+                <if condition="($cid eq '292') AND ($k eq '1')">
+		    			checked
+		    			<elseif condition="$vo['classid'] eq $cid"/>
+		    			checked
+		    			</if>
+                 value="{$vo.classtitle}" >{$vo.classtitle}
               </label>
-              <label class="radio inline">
-                <input type="radio" name="pdt-class2" value="销售"> 销售
-              </label>
-              <label class="radio inline">
-                <input type="radio" name="pdt-class2" value="租赁"> 租赁
-              </label>
+		    			
+		    			
+		    	</volist>
+		     </notempty>
+              
+            
             </div>
           </div>
         </div>

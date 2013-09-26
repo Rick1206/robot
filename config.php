@@ -26,7 +26,7 @@ return array(
 	'OFFLINEMESSAGE'	=>	'本站正在维护中，暂不能访问。<br /> 请稍后再访问本站。',
 	'ICP_NUM'			=>	'',
 	'CMSHEAD_VERSION'	=>	'2.1_20130528', //请勿随意修改
-	'SHOW_PAGE_TRACE'   =>  0,  
+	'SHOW_PAGE_TRACE'   =>  1,  
 	//前台网友交互发布的信息默认是否审核0,1
 	'HOME_SEND_STATUS'	=> 0,	
 

@@ -78,7 +78,6 @@
 </header>
 
 
-<script type="text/javascript" src="__PUBLIC__/Js/flowplayer-3.2.12.min.js"></script>
 
 <section class="pg-head">
 	<div class="wrap">
@@ -91,9 +90,7 @@
 			</p>
 			<a href="" class="more">了解更多</a>
 		</div>
-		<div class="short-img">
-
-			<img src="__PUBLIC__/Theme/Front/images/about-short-pic.png" alt=""/>
+		<div class="short-img"><img src="__PUBLIC__/Theme/Front/images/about-short-pic.png" alt=""/>
 		</div>
 	</div>
 </section>
@@ -101,114 +98,212 @@
 	<div class="tabs">
 	<?php $cid = $App['vars']['id'] ? $App['vars']['id'] : $_GET['id'];?>
     <?php $childClassList = ch1('class','282');?>
-    <?php if(!empty($childClassList)): if(is_array($childClassList)): $k = 0; $__LIST__ = $childClassList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><a href="<?php echo ($vo["url"]); ?>" class="<?php if(($cid == '282') AND ($k == '1')): ?>selected
-    			<?php elseif($vo['classid'] == $cid): ?>
-    			selected<?php endif; ?>"><?php echo ($vo["classtitle"]); ?></a><?php endforeach; endif; else: echo "" ;endif; endif; ?>
-
+    <?php if(!empty($childClassList)): if(is_array($childClassList)): $k = 0; $__LIST__ = $childClassList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><a href="<?php echo ($vo["url"]); ?>" class="<?php if($vo['classid'] == $cid): ?>selected<?php endif; ?>"><?php echo ($vo["classtitle"]); ?></a><?php endforeach; endif; else: echo "" ;endif; endif; ?>
+     
 	</div>
-	<h1 class="title-line"><span>园区介绍</span>
+	<h1 class="title-line"><span>加入协会</span>
 	<hr>
 	</h1>
 </section>
-<section class="about-video pg-part-bg">
-	<div class="wrap">
-		<div class="fn-left">
-			<a href="__PUBLIC__/Flv/1.flv"
-			style="display:block;width:620px;height:299px"
-			id="player" ><img src="__PUBLIC__/Theme/Front/images/video-pic.jpg" alt=""/></a>
+<section class="association-Introduction pg-part-bg">
+	<div class="wrap row-fluid">
+		<div class="span3"><img src="__PUBLIC__/Theme/Front/images/logo2.png" alt=""/>
 		</div>
-		<div class="fn-left text-box">
-			<h1>顾村 上海机器人产业园
+		<div class="span8">
+			<h1>上海机器人协会 SHANGHAI ROBOT INDUSTRY ASSOCIATION
 			<br>
-			梦开始的地方</h1>
+			简称“SRIC”</h1>
 			<p>
-				2012年9月20日上海经济和信息化委员会 正式批准建设顾村.上海机器人产业园
+				协会积极组织上海产学研各界参与产业发展战略研究、产学研重大专项、产业孵化器建设，引导传统产业进入机器人产业领域。致力于传播、推广和发展先进的机器人技术和产品；搭建厂家和中国科学院交流和学习的平台；构筑企业和政府沟通的桥梁；推进机器人专业人才培养。
 			</p>
 		</div>
 	</div>
 </section>
-<section class="about-industrial">
-	<div class="row-fluid">
-		<div class="span2"><img src="__PUBLIC__/Theme/Front/images/logo.jpg" alt=""/>
-		</div>
-		<div class="span10 pt">
-			<p class="pb">
-				上海机器人产业园紧邻上海绕城高速与宝安公路，通达上海大学2公里、宝山主城区6公里、距上海火车站12公里，虹桥机场18公里。
-			</p>
-			<p>
-				上海机器人产业园是上海市经信委同意建设的第一家机器人产业园区，占地面积达到4635亩，通过引进以机器人为主的智能装备制造企业，逐步淘汰现有低端落后产业，同时通过整机企业带动精密机床、仪器仪表、零部件等相关制造业的发展，并将引导园区内部分传统企业配合机器人产业完成高端生产服务的转型。 根据规划，该园区到2017年要引进国内外机器人制造相关企业机构600家，计划招商引资额度达到200亿元，力争成为中国智能装备制造业的示范基地。
-			</p>
-		</div>
-	</div>
-	<div class="row-fluid pt">
-		<div class="span4">
-			<img src="__PUBLIC__/Theme/Front/images/pic_07.jpg" alt=""/>
-			<h1 class="tit">三区</h1>
-			<hr class="hr-bold"/>
-			<ul id="myTab" class="nav-tabs">
-				<li class="active">
-					第一区
-				</li>
-				<li>
-					第二区
-				</li>
-				<li>
-					第三区
-				</li>
-			</ul>
-			<div class="tab-content">
-				<div class="tab-pane active">
-					<p>
-						机器人研发及成果转化区：以现有的机器人企业为龙头，向四周延展与扩张，实现以机器人产业为主体的智能装备制造产业集群。逐步形成工业机器人产业园、服务机器人产业园、机器人设计创新园
-					</p>
-				</div>
-				<div class="tab-pane">
-					2
-				</div>
-				<div class="tab-pane">
-					3
-				</div>
+<section class="association-function">
+	<div class="wrap">
+		<h1 class="title-line2"><span>协会职能</span>
+		<hr/>
+		</h1>
+		<div class="row-fluid">
+			<div class="span6">
+				<ul>
+					<li>
+						• 宣传政府的政策、法规
+					</li>
+					<li>
+						• 提出行业政策和法规的建议和意见
+					</li>
+					<li>
+						• 进行行业统计、调查
+					</li>
+					<li>
+						• 向有关部门反映会员、行业的困难和要求，并协助解决
+					</li>
+					<li>
+						• 制订行业发展规划
+					</li>
+				</ul>
+			</div>
+			<div class="span6">
+				<ul>
+					<li>
+						• 协助有关部门打击假冒伪劣活动
+					</li>
+					<li>
+						• 组织有关政策法规、机器人安全标准及质量技术、企管等培训
+					</li>
+					<li>
+						• 定期向会员提供国内外机器人行业的资讯，发布有关行业消息
+					</li>
+					<li>
+						• 组织国内外同行之间的交流活动
+					</li>
+					<li>
+						• 组织会员参加国内外大型机器人展览会
+					</li>
+				</ul>
 			</div>
 		</div>
-		<div class="span4">
-			<img src="__PUBLIC__/Theme/Front/images/pic_08.jpg" alt=""/>
-			<h1 class="tit">两轴</h1>
-			<hr class="hr-bold"/>
-			<p class="em">
-				即商务轴与景观轴
-			</p>
-			<p>
-				商务轴是沿友谊西路两侧，打造园区商务办公及交通便捷的主干道
-				<br>
-				景观轴是联系南北两侧的园区生态景观轴线
-			</p>
-		</div>
-		<div class="span4">
-			<img src="__PUBLIC__/Theme/Front/images/pic_09.jpg" alt=""/>
-			<h1 class="tit">一核</h1>
-			<hr class="hr-bold"/>
-			<p class="em">
-				即机器人产业园区公共服务核心区
-			</p>
-			<p>
-				主要建设机器人主题公园、机器人科技大厦、上海机器人博物馆、国际机器人上海展示交易中心、国际机器人上海科技财富论坛、上海机器人研究所、上海机器人学院等
-			</p>
-		</div>
-	</div>
-	<div class="">
-		<p class="pb">
-			上海机器人产业园区的功能定位为一主一辅一配套
-			<br>
-			即以机器人产业链为核心的产业集群，主要包括汽车、电子、钢铁、航空航天等行业为主的工业机器人和以家庭机器人、医疗机器人等为主的服务机器人，研发关键核心部件制造、机器人应用开发与组装、以及机器人应用技术培训、机器人产业文化等。
-		</p>
-		<p>
-			上海机器人的未来定义了尖端人士的创业梦想。机器人产业园的定位还包括了服务机器人研发、设计、后台服务、软件开发、旅游文化等跟机器人有关的全产业链。
-		</p>
 	</div>
 </section>
-<script>
-	flowplayer("player", "__PUBLIC__/Swf/flowplayer-3.2.16.swf"); 
-</script>
+<section class="association-services pg-part-bg">
+	<div class="wrap">
+		<h1 class="title-line2"><span>会员服务介绍</span>
+		<hr/>
+		</h1>
+		<div class="row-fluid">
+			<div class="span6">
+				<h2>资源共享</h2>
+				<p>
+					会员名录
+					<br>
+					协会网站(http://www.robotsh.cn）
+					<br>
+					每月最新政策信息
+				</p>
+			</div>
+			<div class="span6">
+				<h2>学习发展</h2>
+				<p>
+					中国科学院深圳先进技术研究院专家、教授技术支持
+					<br>
+					年度机器人行业优秀企业和个人评选
+					<br>
+					各类专业培训、研讨会、公开课
+					<br>
+					定期机器人专题论坛
+					<br>
+					行业专家、政府权威部门咨询服务
+					<br>
+					协助政府对机器人行业资源状况进行各类调研，分享调研结果
+				</p>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span6">
+				<h2>会员名录</h2>
+				<p>
+					机器人产业园区企业间学习参观交流
+					<br>
+					赴外学习交流（副理事长免费）
+					<br>
+					协会理事会（副理事长、理事单位参加）
+				</p>
+			</div>
+			<div class="span6">
+				<h2>会员风采</h2>
+				<p>
+					休闲娱乐活动邀请赛
+					<br>
+					会员春、秋游
+					<br>
+					白领联谊会
+					<br>
+					亲子活动等
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="association-services2">
+	<div class="wrap">
+		<h1 class="title-line2"><span>会员服务</span>
+		<hr/>
+		</h1>
+		<p class="em">
+			我们热诚欢迎更多相关行业的公司/机构加入我们的行列，学习交流、共享资源，努力提升机器人企业的价值，为机器人行业发展做出贡献。
+		</p>
+		<div class="row-fluid steps">
+			<div class="span4">
+				<h1>入会申请</h1>
+
+				<p>
+					联系协会秘书处，申请加入协会。填写《上海机器人协会会员申请表》加盖公章，连同加盖公章的公司营业执照复印件一并寄送至协会秘书处。
+				</p>
+			</div>
+			<div class="span4">
+				<h1>资质审核</h1>
+
+				<p>
+					协会秘书处将对会员单位资质进行审核，经核准符合协会入会要求，3个工作日内与申请单位确认。
+				</p>
+			</div>
+			<div class="span4">
+				<h1>会员确认</h1>
+
+				<p>
+					协会收到会费后，5个工作日内将会费收据以快递方式寄出，并发放会员牌匾。
+				</p>
+			</div>
+		</div>
+		<div class="row-fluid pdf-row">
+
+			<?php $_result=ch2('Download','field:title','limit:10');if(is_array($_result)): $i = 0; $__LIST__ = $_result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="span4">
+					<div class="span4">
+						<img src="__PUBLIC__/Theme/Front/images/icon-pdf.png" alt=""/>
+					</div>
+					<div class="span8">
+						<h3><?php echo ($vo["title"]); ?></h3>
+						<a href="#" target="_blank" class="download">点击下载</a>
+					</div>
+				</div><?php endforeach; endif; else: echo "" ;endif; ?>
+			<!-- <div class="span4">
+			<div class="span4"><img src="__PUBLIC__/Theme/Front/images/icon-pdf.png" alt=""/></div>
+			<div class="span8">
+			<h3>上海机器人协会会员申请表</h3>
+			<a href="#" target="_blank" class="download">点击下载</a>
+			</div>
+			</div> -->
+
+		</div>
+	</div>
+</section>
+<section id="contact" class="pg-part-bg">
+	<div class="wrap">
+		<h1 class="title-line2"><span>联系我们</span>
+		<hr/>
+		</h1>
+		<div class="row-fluid">
+			<div class="span8">
+				<img src="__PUBLIC__/Theme/Front/images/map-mask.jpg" alt=""/>
+			</div>
+			<div class="span4">
+				<p class="way">
+					电话：021-56022147
+					<br>
+					传真： 021-56022809
+					<br>
+					邮箱：robot@robotsh.cn
+					<br>
+					网址：http:// www.robotsh.cn
+					<br>
+					地址：上海市宝山富联路888号(上海机器人产业园内)
+				</p>
+			</div>
+		</div>
+
+	</div>
+</section>
 <footer>
 	<div class="map-list">
 		<div class="wrap">

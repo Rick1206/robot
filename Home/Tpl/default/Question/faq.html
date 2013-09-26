@@ -13,8 +13,17 @@
 
 <section class="tab-top">
   <div class="tabs">
-    <a href="zhuanjiazixun.html">专业咨询</a>
-    <a href="zhuanjiajieda.html" class="selected">专家解答</a>
+   {~$cid = $App['vars']['id'] ? $App['vars']['id'] : $_GET['id']}
+    {~$childClassList = ch1('class','293')}
+    <notempty name="childClassList">
+     	<volist name="childClassList" id="vo" key='k'>
+    		<a href="{$vo.url}" class="<if condition="($cid eq '293') AND ($k eq '1')">
+    			selected
+    			<elseif condition="$vo['classid'] eq $cid"/>
+    			selected
+    			</if>">{$vo.classtitle}</a>
+    	</volist>
+     </notempty>
   </div>
 </section>
 <section id="faq">
