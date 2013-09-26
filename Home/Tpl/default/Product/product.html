@@ -12,11 +12,13 @@
 </section>
 <section class="tab-top">
   <div class="tabs">
-    <a href="{:U('Index/product',array(id=>1))}" class="selected">教育</a>
-    <a href="{:U('Index/product',array(id=>2))}">医用</a>
-    <a href="{:U('Index/product',array(id=>3))}">益智</a>
-    <a href="{:U('Index/product',array(id=>4))}">民用</a>
-    <a href="{:U('Index/product',array(id=>5))}">工业 </a>
+  	{~$cid = $App['vars']['id'] ? $App['vars']['id'] : $_GET['id']}
+    {~$childClassList = ch1('class','286')}
+     <notempty name="childClassList">
+     	<volist name="childClassList" id="vo" k='k'>
+    		<a href="{$vo.url}" class="<if condition="$vo['classid'] eq $cid">selected</if>">{$vo.classtitle}</a>
+    	</volist>
+     </notempty>
   </div>
 </section>
 <section class="dynamic wrap">

@@ -4,6 +4,7 @@
   * 如果可以请帮我多多宣传CMSHead，谢谢！让我们一起努力，来把CMSHead做成最强悍的开源CMS，虽然任重道远，但是我还是有信心去努力！欢迎您加群讨论QQ群号：146570772
   * Author：还是这个味 782039296@qq.com
 */
+
 if(!defined('THINK_PATH')) exit();
 return array(
 	'OUTPUT_ENCODE'	=>	false, //关闭页面压缩，解决可能的330错误 (net::ERR_CONTENT_DECODING_FAILED)
