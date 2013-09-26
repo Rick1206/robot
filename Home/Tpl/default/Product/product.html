@@ -15,8 +15,12 @@
   	{~$cid = $App['vars']['id'] ? $App['vars']['id'] : $_GET['id']}
     {~$childClassList = ch1('class','286')}
      <notempty name="childClassList">
-     	<volist name="childClassList" id="vo" k='k'>
-    		<a href="{$vo.url}" class="<if condition="$vo['classid'] eq $cid">selected</if>">{$vo.classtitle}</a>
+     	<volist name="childClassList" id="vo" key='k'>
+    		<a href="{$vo.url}" class="<if condition="($cid eq '286') AND ($k eq '1')">
+    			selected
+    			<elseif condition="$vo['classid'] eq $cid"/>
+    			selected
+    			</if>">{$vo.classtitle}</a>
     	</volist>
      </notempty>
   </div>

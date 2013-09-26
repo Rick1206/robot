@@ -12,7 +12,7 @@ return array(
 	'DB_HOST'		=>	'localhost',// 数据库服务器地址
 	'DB_NAME'		=>	'rbdata',// 数据库名称
 	'DB_USER'		=>	'root',// 数据库用户名
-	'DB_PWD'		=>	'123456',// 数据库密码
+	'DB_PWD'		=>	'',// 数据库密码
 	'DB_PREFIX'		=>	'rb_',// 数据表前缀
 	'DB_CHARSET'	=>	'utf8',// 网站编码
 	'DB_PORT'		=>	'3306',// 数据库端口 
@@ -26,7 +26,7 @@ return array(
 	'OFFLINEMESSAGE'	=>	'本站正在维护中，暂不能访问。<br /> 请稍后再访问本站。',
 	'ICP_NUM'			=>	'',
 	'CMSHEAD_VERSION'	=>	'2.1_20130528', //请勿随意修改
-	'SHOW_PAGE_TRACE'   =>  1,  
+	'SHOW_PAGE_TRACE'   =>  0,  
 	//前台网友交互发布的信息默认是否审核0,1
 	'HOME_SEND_STATUS'	=> 0,	
 

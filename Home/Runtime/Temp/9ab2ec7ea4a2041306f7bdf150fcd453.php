@@ -1,0 +1,3 @@
+<?php
+//000000003600a:23:{i:0;s:9:"rb_access";i:1;s:10:"rb_article";i:2;s:12:"rb_attribute";i:3;s:11:"rb_category";i:4;s:15:"rb_category_map";i:5;s:8:"rb_diary";i:6;s:11:"rb_download";i:7;s:6:"rb_key";i:8;s:7:"rb_link";i:9;s:10:"rb_message";i:10;s:8:"rb_model";i:11;s:17:"rb_model_children";i:12;s:19:"rb_model_fieldnotes";i:13;s:8:"rb_music";i:14;s:7:"rb_node";i:15;s:8:"rb_photo";i:16;s:7:"rb_role";i:17;s:12:"rb_role_user";i:18;s:9:"rb_router";i:19;s:7:"rb_test";i:20;s:5:"rb_ui";i:21;s:7:"rb_user";i:22;s:8:"rb_video";}
+?>

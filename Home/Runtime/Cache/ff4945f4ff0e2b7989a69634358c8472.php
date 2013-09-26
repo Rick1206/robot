@@ -43,8 +43,8 @@
                 <div class="login-bar">
                     <div class="l-wrap">
                         <div class="login">
-                            <a href="#" class="first-child">注册</a>
-                            <a href="#">登陆</a>
+                            <a href="javascript:;" class="first-child register-s">注册</a>
+                            <a href="javascript:;" class="login-s">登陆</a>
                         </div>
                         <div class="lang"><span class="icon-earth"></span><a href="#" class="tar-lang"><span>English</span></a></div>
                         <div class="search">
@@ -92,7 +92,9 @@
   <div class="tabs">
   	<?php $cid = $App['vars']['id'] ? $App['vars']['id'] : $_GET['id'];?>
     <?php $childClassList = ch1('class','286');?>
-     <?php if(!empty($childClassList)): if(is_array($childClassList)): $i = 0; $__LIST__ = $childClassList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="<?php echo ($vo["url"]); ?>" class="<?php if($vo['classid'] == $cid): ?>selected<?php endif; ?>"><?php echo ($vo["classtitle"]); ?></a><?php endforeach; endif; else: echo "" ;endif; endif; ?>
+     <?php if(!empty($childClassList)): if(is_array($childClassList)): $k = 0; $__LIST__ = $childClassList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><a href="<?php echo ($vo["url"]); ?>" class="<?php if(($cid == '286') AND ($k == '1')): ?>selected
+    			<?php elseif($vo['classid'] == $cid): ?>
+    			selected<?php endif; ?>"><?php echo ($vo["classtitle"]); ?></a><?php endforeach; endif; else: echo "" ;endif; endif; ?>
   </div>
 </section>
 <section class="dynamic wrap">

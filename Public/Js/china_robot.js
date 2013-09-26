@@ -2,7 +2,7 @@ define(function(require,exports,module){
 
     var pop = require('popup');
 
-    $(document).ready(function(){
+    $(function(){
 
         pop.init({type:'login'});
         pop.init({type:'register'});
