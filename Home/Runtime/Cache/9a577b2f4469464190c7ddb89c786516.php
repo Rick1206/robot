@@ -103,7 +103,7 @@
   <div class="row-fluid">
   	<?php $hotnews= ch2($cid,'where:attrtj fin 2','limit:0,3');?>
    <?php if(is_array($hotnews)): $k = 0; $__LIST__ = $hotnews;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><div class="span4 index-ref-block">
-      <img src="<?php echo ($vo["img"]); ?>" alt=""/>
+      <img src="<?php echo (chimg($vo["img"],300,180)); ?>" alt=""/>
       <p class="title"><?php echo ($vo["title"]); ?></p>
       <hr>
       <p><?php echo ($vo["content"]); ?></p>

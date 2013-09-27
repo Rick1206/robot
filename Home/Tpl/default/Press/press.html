@@ -31,7 +31,7 @@
   	{~$hotnews= ch2($cid,'where:attrtj fin 2','limit:0,3')}
    <volist name="hotnews" id="vo" key='k'>
     <div class="span4 index-ref-block">
-      <img src="{$vo.img}" alt=""/>
+      <img src="{$vo.img|chimg=300,180}" alt=""/>
       <p class="title">{$vo.title}</p>
       <hr>
       <p>{$vo.content}</p>

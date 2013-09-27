@@ -5,18 +5,19 @@
 <title><?php echo ($title); ?></title>
 <meta name="keywords" content="<?php echo ($keywords); ?>" />
 <meta name="description" content="<?php echo ($description); ?>" />
+<!--[if lt IE 9]><script type="text/javascript">"abbr,article,aside,audio,bdi,canvas,data,datalist,details,figcaption,figure,footer,header,hgroup,mark,meter,nav,output,progress,section,summary,subline,time,video".replace(/\w+/g,function(n){document.createElement(n)})</script><![endif]-->
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/Theme/Front/default/style.css" />
-<script type="text/javascript" src="__PUBLIC__/Js/lib/sea.js" id="seajsnode"></script>
+<script type="text/javascript" src="__PUBLIC__/js/lib/sea.js" id="seajsnode"></script>
 
 <script type="text/javascript">
         seajs.config({
             alias: {
-                'jquery': '__PUBLIC__/Js/lib/jquery-1.10.2.min.js',
-                'bpopup': '__PUBLIC__/Js/lib/jquery.bpopup.min.js',
-                'carouFredSel':'__PUBLIC__/Js/lib/jquery.carouFredSel-6.2.0-packed.js',
-                'dot':'__PUBLIC__/Js/lib/doT.min.js'
+                'jquery': '__PUBLIC__/js/lib/jquery-1.10.2.min.js',
+                'bpopup': '__PUBLIC__/js/lib/jquery.bpopup.min.js',
+                'carouFredSel':'__PUBLIC__/js/lib/jquery.carouFredSel-6.2.0-packed.js',
+                'dot':'__PUBLIC__/js/lib/doT.min.js'
             },
-            base:'__PUBLIC__/Js',
+            base:'__PUBLIC__/js',
             preload:['jquery']
         });
         seajs.use('china_robot');

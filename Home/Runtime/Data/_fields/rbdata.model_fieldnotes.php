@@ -1,1 +1,0 @@
-<?php	return array ( 0 => 'id', 1 => 'ename', 2 => 'fieldnotes', 3 => 'fieldsmap', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'int(10)', 'ename' => 'varchar(20)', 'fieldnotes' => 'mediumtext', 'fieldsmap' => 'mediumtext', ), );?>

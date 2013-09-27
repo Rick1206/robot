@@ -1,1 +1,0 @@
-<?php	return array ( 0 => 'mapid', 1 => 'mapissource', 2 => 'mapinfoid', 3 => 'mapclassid', 4 => 'mapclassmodule', '_autoinc' => true, '_pk' => 'mapid', '_type' => array ( 'mapid' => 'int(10)', 'mapissource' => 'tinyint(1)', 'mapinfoid' => 'int(10)', 'mapclassid' => 'int(10)', 'mapclassmodule' => 'varchar(30)', ), );?>
