@@ -78,6 +78,11 @@ define(['bpopup','dot'],function(require,exports,module){
             $('.pop-login').bPopup({
                 onClose:function(){
                     $('.pop-login').remove();
+                },
+                onOpen:function(){
+                    require.async('validate',function(){
+                        $('#form_login').validator();
+                    });
                 }
             });
         });
@@ -98,6 +103,23 @@ define(['bpopup','dot'],function(require,exports,module){
             $('.pop-register').bPopup({
                 onClose:function(){
                     $('.pop-register').remove();
+                },
+                onOpen:function(){
+                    require.async('validate',function(){
+                        $('#form_register').validator();
+                        $('#re_password').on('after:confirm_pd',function(){
+                            var pass = $('#form_register').find('[type=password]');
+
+                            if(pass.eq(0).val()!=pass.eq(1).val()){
+                                pass.addClass('error');
+                                alert('两次密码不一致!');
+                                $('#form_register').on('submit',function(){return false});
+                            }else{
+                                $('#form_register').off('submit');
+                            }
+
+                        });
+                    });
                 }
             });
         });

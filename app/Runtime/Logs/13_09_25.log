@@ -3900,3 +3900,540 @@ INFO: [ view_end ] --START--
 INFO: ShowPageTrace Behavior ::run [ RunTime:0.000686s ]
 INFO: [ view_end ] --END-- [ RunTime:0.000809s ]
 
+[ 2013-09-25T15:06:18+08:00 ] 0.0.0.0 /robot/index.php/Index/question.html?
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000881s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant input - assumed 'input' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 5 行.
+NOTIC: [8] Undefined index: out D:\wamp\www\robot\app\Lib\Widget\LesscWidget.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 61 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 64 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 71 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 238 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 239 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 240 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 241 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 242 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 246 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 247 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 248 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.445176s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.445329s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000841s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000534s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000497s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002963s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000680s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2013-09-25T15:06:45+08:00 ] 0.0.0.0 /robot/index.php/Index/question.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000897s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant input - assumed 'input' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 5 行.
+NOTIC: [8] Undefined index: out D:\wamp\www\robot\app\Lib\Widget\LesscWidget.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 61 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 64 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 71 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 238 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 239 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 240 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 241 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 242 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 246 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 247 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 248 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.460782s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.460930s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000868s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000513s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000367s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002717s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000843s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2013-09-25T15:06:49+08:00 ] 0.0.0.0 /robot/index.php/Index/question.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000791s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant input - assumed 'input' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 5 行.
+NOTIC: [8] Undefined index: out D:\wamp\www\robot\app\Lib\Widget\LesscWidget.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 61 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 64 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 71 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 238 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 239 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 240 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 241 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 242 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 246 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 247 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\4557cc914c5a1273f7a706982fc11bde.php 第 248 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.370960s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.371104s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000895s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000518s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000362s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002768s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000645s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2013-09-25T15:06:52+08:00 ] 0.0.0.0 /robot/index.php/Index/press.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000915s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant input - assumed 'input' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 5 行.
+NOTIC: [8] Undefined index: out D:\wamp\www\robot\app\Lib\Widget\LesscWidget.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 61 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 64 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 71 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 185 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 186 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 187 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 194 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 195 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.349047s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.349196s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000942s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000542s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000386s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002899s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2013-09-25T15:06:58+08:00 ] 0.0.0.0 /robot/index.php/Index/join_us.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000945s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant input - assumed 'input' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 5 行.
+NOTIC: [8] Undefined index: out D:\wamp\www\robot\app\Lib\Widget\LesscWidget.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 61 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 64 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 71 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 264 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 265 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 266 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 267 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 268 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 272 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 273 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 274 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.446894s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.447036s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000883s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000597s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002863s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000685s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2013-09-25T15:07:09+08:00 ] 0.0.0.0 /robot/index.php/Index/about.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant input - assumed 'input' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 5 行.
+NOTIC: [8] Undefined index: out D:\wamp\www\robot\app\Lib\Widget\LesscWidget.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 61 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 64 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 71 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 192 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 194 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 195 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 196 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 200 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 201 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 202 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.577745s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.577894s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000885s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000528s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002803s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2013-09-25T15:07:14+08:00 ] 0.0.0.0 /robot/index.php/Index/service/id/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000815s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant input - assumed 'input' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 5 行.
+NOTIC: [8] Undefined index: out D:\wamp\www\robot\app\Lib\Widget\LesscWidget.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 61 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 64 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 71 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 130 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 289 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 290 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 291 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 292 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 293 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 297 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\02df627711f460244b00114efc65be40.php 第 299 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.779035s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.779203s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001848s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000558s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000378s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003810s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2013-09-25T15:07:18+08:00 ] 0.0.0.0 /robot/index.php/Index/press.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant input - assumed 'input' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 5 行.
+NOTIC: [8] Undefined index: out D:\wamp\www\robot\app\Lib\Widget\LesscWidget.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 61 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 64 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 71 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 185 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 186 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 187 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 194 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 195 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.593224s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.593377s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002316s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001526s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000443s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005406s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000690s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2013-09-25T15:08:31+08:00 ] 0.0.0.0 /robot/index.php/Index/download.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000817s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant input - assumed 'input' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 5 行.
+NOTIC: [8] Undefined index: out D:\wamp\www\robot\app\Lib\Widget\LesscWidget.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 61 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 64 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 71 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 185 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 186 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 187 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 194 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\877a0848f1126506fed363229c2c178c.php 第 195 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.580785s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.580940s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001027s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000669s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004436s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000723s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2013-09-25T15:08:35+08:00 ] 0.0.0.0 /robot/index.php/Index/product.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001497s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant input - assumed 'input' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 5 行.
+NOTIC: [8] Undefined index: out D:\wamp\www\robot\app\Lib\Widget\LesscWidget.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 61 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 64 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 71 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 114 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 192 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 194 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 195 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 196 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 200 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 201 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\58994b40158bbe342a07898cd5af6a21.php 第 202 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.512021s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.512166s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000917s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000535s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002827s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000690s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2013-09-25T15:08:38+08:00 ] 0.0.0.0 /robot/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant input - assumed 'input' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 5 行.
+NOTIC: [8] Undefined index: out D:\wamp\www\robot\app\Lib\Widget\LesscWidget.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 61 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 64 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 71 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 194 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 195 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 196 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 197 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 201 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 203 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.456720s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.456865s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000883s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000536s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000407s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003370s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2013-09-25T15:08:47+08:00 ] 0.0.0.0 /robot/index.php/Index/join_us.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000897s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant input - assumed 'input' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 5 行.
+NOTIC: [8] Undefined index: out D:\wamp\www\robot\app\Lib\Widget\LesscWidget.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 61 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 64 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 71 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 264 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 265 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 266 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 267 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 268 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 272 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 273 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 274 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.624040s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.624215s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000952s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000672s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000411s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003113s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000690s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2013-09-25T15:08:52+08:00 ] 0.0.0.0 /robot/index.php/Index/about.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000803s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant input - assumed 'input' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 5 行.
+NOTIC: [8] Undefined index: out D:\wamp\www\robot\app\Lib\Widget\LesscWidget.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 61 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 64 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 71 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 192 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 193 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 194 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 195 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 196 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 200 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 201 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\2e02511801faa7a8371babbb4a3920f0.php 第 202 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.539365s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.539523s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000848s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000524s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000406s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003752s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000750s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2013-09-25T15:08:59+08:00 ] 0.0.0.0 /robot/index.php/Index/join_us.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000819s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant input - assumed 'input' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 5 行.
+NOTIC: [8] Undefined index: out D:\wamp\www\robot\app\Lib\Widget\LesscWidget.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 61 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 64 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 71 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 264 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 265 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 266 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 267 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 268 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 272 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 273 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\robot\app\Runtime\Cache\fc07ceeef3170a4b03050a9c1e6e1a29.php 第 274 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.644144s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.644303s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000958s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000931s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003449s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000683s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000841s ]
+

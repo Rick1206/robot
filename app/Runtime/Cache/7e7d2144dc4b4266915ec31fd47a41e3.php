@@ -96,140 +96,17 @@
     </div>
     <div class="bg-mask"></div>
 </header>
-<section class="pg-head">
-  <div class="wrap">
-    <div class="short">
-      <h1>机器人改变世界 人类新成员</h1>
-      <p>自主机器人系列产品整体技术性能达到国内同类产品的先进水平 <br>
-        运用于我国汽车、电子电器等行业</p>
-      <a href="" class="more">了解更多</a>
+<div class="wrap lpt30 lpb30">
+  <div class="row-fluid">
+    <div class="span2">
+      1213
     </div>
-    <div class="short-img"><img src="__PUBLIC__/images/about-short-pic03.png" alt=""/></div>
-  </div>
-</section>
-<section class="word-download pg-part-bg">
-  <div class="wrap row-fluid">
-    <span12>
-      <p class="text">上海机器人设计应用中心致力于提供最专业全面的交易信息和服务。您可以通过应用中心轻松提交您的机器人产权转让、销售、和租赁服务。我们在收到您的服务申请后会有专员与您联系，通过审核后即可发布。</p>
-    </span12>
-  </div>
-</section>
-<section class="tab-top">
-  <div class="tabs">
-    <a href="<?php echo U('Index/question');?>" class="selected">专业咨询</a>
-    <a href="<?php echo U('Index/faq');?>">专家解答</a>
-  </div>
-</section>
-<section class="applyfor">
-  <div class="wrap">
-    <div class="apply-form">
-      <form action="" class="form-horizontal" id="form_a2">
-        <h1 class="title-line3">
-          <span>咨询人个人信息</span><hr>
-        </h1>
-        <div class="row-fluid">
-          <div class="span6 control-group">
-            <label class="control-label">姓名：</label>
-            <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level" required>
-            </div>
-          </div>
-          <div class="span6">
-            <label class="control-label">职位：</label>
-            <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level" required>
-            </div>
-          </div>
-        </div>
-        <div class="row-fluid">
-          <div class="span6 control-group">
-            <label class="control-label">公司：</label>
-            <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level" required>
-            </div>
-          </div>
-          <div class="span6 control-group">
-            <label class="control-label">联系电话：</label>
-            <div class="controls">
-              <input type="mobile"  placeholder="" class="input-block-level" required>
-            </div>
-          </div>
-        </div>
-        <div class="row-fluid">
-          <div class="span6 control-group">
-            <label class="control-label">联系地址：</label>
-            <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level" required>
-            </div>
-          </div>
-          <div class="span6 control-group">
-            <label class="control-label">邮箱：</label>
-            <div class="controls">
-              <input type="email"  placeholder="" class="input-block-level" required>
-            </div>
-          </div>
-        </div>
-        <h1 class="title-line3">
-          <span>咨询问题类别</span><em class="help-inline">以下内容均为必填项，我们会尽快回复收到的咨询。</em><hr>
-        </h1>
-
-        <div class="row-fluid">
-          <div class="span6 control-group">
-            <label class="control-label">问题类别：</label>
-            <div class="controls">
-              <select name="" class="input-block-level">
-                <option value="">机器人使用方法</option>
-                <option value="">机器人使用方法2</option>
-              </select>
-            </div>
-          </div>
-          <div class="span6 control-group">
-            <label class="control-label">其他类别：</label>
-            <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
-            </div>
-          </div>
-        </div>
-        <h1 class="title-line3">
-          <span>咨询问题内容</span><hr>
-        </h1>
-        <div class="row-fluid">
-          <div class="span12 control-group">
-            <label class="control-label">向谁提问：</label>
-            <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level" required>
-            </div>
-          </div>
-        </div>
-        <div class="row-fluid">
-          <div class="span12 control-group">
-            <label class="control-label">问题内容：</label>
-            <div class="controls">
-              <textarea class="input-block-level" name="" style="height: 80px" required></textarea>
-            </div>
-          </div>
-        </div>
-        <div class="row-fluid">
-          <div class="span12 text-center">
-            <button class="submit" type="submit">提交申请</button>
-          </div>
-        </div>
-      </form>
+    <div class="span2">123</div>
+    <div class="span8">
+      123123
     </div>
   </div>
-</section>
-<script type="text/javascript">
-  seajs.use('validate',function(){
-    $('#form_a2').validator()
-  });
-</script>
-
-
-
-
-
-
-
+</div>
 <footer>
     <div class="map-list">
         <div class="wrap">

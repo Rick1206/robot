@@ -66,11 +66,11 @@
                           </div>
                         </li>
                         <li>
-                          <a href="<?php echo U('Index/service');?>">专业服务</a>
+                          <a href="<?php echo U('Index/service');?>#lease">专业服务</a>
                           <div class="drop-down">
-                            <a href="<?php echo U('Index/service',array(id=>1));?>">租赁</a>
-                            <a href="<?php echo U('Index/service',array(id=>2));?>">销售</a>
-                            <a href="<?php echo U('Index/service',array(id=>3));?>">转让</a>
+                            <a href="<?php echo U('Index/service');?>#lease">租赁</a>
+                            <a href="<?php echo U('Index/service');?>#sell">销售</a>
+                            <a href="<?php echo U('Index/service');?>#transfer">转让</a>
                           </div>
                         </li>
                         <li>
@@ -125,9 +125,9 @@
 </section>
 <section class="tab-top">
   <div class="tabs">
-    <a href="<?php echo U('Index/service',array(id=>1));?>" class="selected">租赁</a>
-    <a href="<?php echo U('Index/service',array(id=>2));?>">销售</a>
-    <a href="<?php echo U('Index/service',array(id=>3));?>">转让</a>
+    <a href="#lease">租赁</a>
+    <a href="#sell">销售</a>
+    <a href="#transfer">转让</a>
   </div>
 </section>
 <section class="applyfor">
@@ -135,7 +135,7 @@
     <h1 class="title-line"><span>机器人产品交易申请表</span><hr></h1>
     <p>以下内容均为必填项，我们会妥善保管您的个人信息和所填内容。</p>
     <div class="apply-form">
-      <form action="" class="form-horizontal">
+      <form action="" class="form-horizontal" id="form_a1">
         <h1 class="title-line3">
           <span>一、交易的产品信息</span><hr>
         </h1>
@@ -143,13 +143,13 @@
           <div class="span6 control-group">
             <label class="control-label">产品名称：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="text"  placeholder="" class="input-block-level" required>
             </div>
           </div>
           <div class="span6">
             <label class="control-label">型号：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="text"  placeholder="" class="input-block-level" required>
             </div>
           </div>
         </div>
@@ -161,19 +161,19 @@
             <label class="control-label">机器类别：</label>
             <div class="controls">
               <label class="radio inline">
-                <input type="radio" name="pdt-class" value="教育"> 教育
+                <input type="radio" name="pdt-class" required value="教育"> 教育
               </label>
               <label class="radio inline">
-                <input type="radio" name="pdt-class" value="医用"> 医用
+                <input type="radio" name="pdt-class" required ="医用"> 医用
               </label>
               <label class="radio inline">
-                <input type="radio" name="pdt-class" value="益智"> 益智
+                <input type="radio" name="pdt-class" required value="益智"> 益智
               </label>
               <label class="radio inline">
-                <input type="radio" name="pdt-class" value="民用"> 民用
+                <input type="radio" name="pdt-class" required value="民用"> 民用
               </label>
               <label class="radio inline">
-                <input type="radio" name="pdt-class" value="工业"> 工业
+                <input type="radio" name="pdt-class" required value="工业"> 工业
               </label>
             </div>
           </div>
@@ -181,13 +181,13 @@
             <label class="control-label">交易类型：</label>
             <div class="controls">
               <label class="radio inline">
-                <input type="radio" name="pdt-class2" value="转让"> 转让
+                <input type="radio" name="tradeType" required value="1" > 租赁
               </label>
               <label class="radio inline">
-                <input type="radio" name="pdt-class2" value="销售"> 销售
+                <input type="radio" name="tradeType" required value="2" > 销售
               </label>
               <label class="radio inline">
-                <input type="radio" name="pdt-class2" value="租赁"> 租赁
+                <input type="radio" name="tradeType" required value="3" > 转让
               </label>
             </div>
           </div>
@@ -196,13 +196,13 @@
           <div class="span6 control-group">
             <label class="control-label">需求数量：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="text"  placeholder="" class="input-block-level" required>
             </div>
           </div>
           <div class="span6">
             <label class="control-label">租赁时长：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="text" name="tradeTime"  placeholder="" class="input-block-level" disabled>
             </div>
           </div>
         </div>
@@ -221,13 +221,13 @@
           <div class="span6 control-group">
             <label class="control-label">姓名：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="text"  placeholder="" class="input-block-level" required>
             </div>
           </div>
           <div class="span6">
             <label class="control-label">职位：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="text"  placeholder="" class="input-block-level" required>
             </div>
           </div>
         </div>
@@ -235,13 +235,13 @@
           <div class="span6 control-group">
             <label class="control-label">公司：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="text"  placeholder="" class="input-block-level" required>
             </div>
           </div>
           <div class="span6">
             <label class="control-label">联系电话：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="mobile"  placeholder="" class="input-block-level" required>
             </div>
           </div>
         </div>
@@ -249,13 +249,13 @@
           <div class="span6 control-group">
             <label class="control-label">联系地址：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="text"  placeholder="" class="input-block-level" required>
             </div>
           </div>
           <div class="span6">
             <label class="control-label">邮箱：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="email"  placeholder="" class="input-block-level" required>
             </div>
           </div>
         </div>
@@ -268,6 +268,9 @@
     </div>
   </div>
 </section>
+<script type="text/javascript">
+  seajs.use('service');
+</script>
 
 
 
@@ -293,10 +296,10 @@
                   <a href="<?php echo U('Index/product',array(id=>5));?>">工业 </a>
                 </li>
                 <li>
-                    <h1><a href="<?php echo U('Index/service');?>">专业服务</a></h1>
-                    <a href="<?php echo U('Index/service',array(id=>1));?>">租赁</a>
-                    <a href="<?php echo U('Index/service',array(id=>2));?>">销售</a>
-                    <a href="<?php echo U('Index/service',array(id=>3));?>">转让</a>
+                    <h1><a href="<?php echo U('Index/service');?>#lease">专业服务</a></h1>
+                  <a href="<?php echo U('Index/service');?>#lease">租赁</a>
+                  <a href="<?php echo U('Index/service');?>#sell">销售</a>
+                  <a href="<?php echo U('Index/service');?>#transfer">转让</a>
                 </li>
                 <li>
                     <h1><a href="<?php echo U('Index/question');?>">专家在线</a></h1>

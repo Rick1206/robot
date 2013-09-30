@@ -41,6 +41,10 @@ class IndexAction extends Action {
         $this->display('press');
     }
 
+    public function search(){
+        $this->display();
+    }
+
     public function test(){
         $data = array();
         $data['title'] = '王瑞祥在国际机器人联合会-中国机器人产业联盟CEO圆桌会议上的讲话';

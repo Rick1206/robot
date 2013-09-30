@@ -25,7 +25,7 @@
 <section class="applyfor">
   <div class="wrap">
     <div class="apply-form">
-      <form action="" class="form-horizontal">
+      <form action="" class="form-horizontal" id="form_a2">
         <h1 class="title-line3">
           <span>咨询人个人信息</span><hr>
         </h1>
@@ -33,13 +33,13 @@
           <div class="span6 control-group">
             <label class="control-label">姓名：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="text"  placeholder="" class="input-block-level" required>
             </div>
           </div>
           <div class="span6">
             <label class="control-label">职位：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="text"  placeholder="" class="input-block-level" required>
             </div>
           </div>
         </div>
@@ -47,13 +47,13 @@
           <div class="span6 control-group">
             <label class="control-label">公司：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="text"  placeholder="" class="input-block-level" required>
             </div>
           </div>
           <div class="span6 control-group">
             <label class="control-label">联系电话：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="mobile"  placeholder="" class="input-block-level" required>
             </div>
           </div>
         </div>
@@ -61,13 +61,13 @@
           <div class="span6 control-group">
             <label class="control-label">联系地址：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="text"  placeholder="" class="input-block-level" required>
             </div>
           </div>
           <div class="span6 control-group">
             <label class="control-label">邮箱：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="email"  placeholder="" class="input-block-level" required>
             </div>
           </div>
         </div>
@@ -81,6 +81,7 @@
             <div class="controls">
               <select name="" class="input-block-level">
                 <option value="">机器人使用方法</option>
+                <option value="">机器人使用方法2</option>
               </select>
             </div>
           </div>
@@ -98,7 +99,7 @@
           <div class="span12 control-group">
             <label class="control-label">向谁提问：</label>
             <div class="controls">
-              <input type="text"  placeholder="" class="input-block-level">
+              <input type="text"  placeholder="" class="input-block-level" required>
             </div>
           </div>
         </div>
@@ -106,7 +107,7 @@
           <div class="span12 control-group">
             <label class="control-label">问题内容：</label>
             <div class="controls">
-              <textarea class="input-block-level" name="" style="height: 80px"></textarea>
+              <textarea class="input-block-level" name="" style="height: 80px" required></textarea>
             </div>
           </div>
         </div>
@@ -119,6 +120,11 @@
     </div>
   </div>
 </section>
+<script type="text/javascript">
+  seajs.use('validate',function(){
+    $('#form_a2').validator()
+  });
+</script>
 
 
 

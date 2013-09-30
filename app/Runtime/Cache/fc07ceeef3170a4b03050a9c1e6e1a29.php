@@ -33,8 +33,8 @@
                 <div class="login-bar">
                     <div class="l-wrap">
                         <div class="login">
-                            <a href="#" class="first-child">注册</a>
-                            <a href="#">登陆</a>
+                            <a href="#" class="first-child register-s">注册</a>
+                            <a href="javascript:;" class="login-s">登陆</a>
                         </div>
                         <div class="lang"><span class="icon-earth"></span><a href="#" class="tar-lang"><span>English</span></a></div>
                         <div class="search">
@@ -66,11 +66,11 @@
                           </div>
                         </li>
                         <li>
-                          <a href="<?php echo U('Index/service');?>">专业服务</a>
+                          <a href="<?php echo U('Index/service');?>#lease">专业服务</a>
                           <div class="drop-down">
-                            <a href="<?php echo U('Index/service',array(id=>1));?>">租赁</a>
-                            <a href="<?php echo U('Index/service',array(id=>2));?>">销售</a>
-                            <a href="<?php echo U('Index/service',array(id=>3));?>">转让</a>
+                            <a href="<?php echo U('Index/service');?>#lease">租赁</a>
+                            <a href="<?php echo U('Index/service');?>#sell">销售</a>
+                            <a href="<?php echo U('Index/service');?>#transfer">转让</a>
                           </div>
                         </li>
                         <li>
@@ -268,10 +268,10 @@
                   <a href="<?php echo U('Index/product',array(id=>5));?>">工业 </a>
                 </li>
                 <li>
-                    <h1><a href="<?php echo U('Index/service');?>">专业服务</a></h1>
-                    <a href="<?php echo U('Index/service',array(id=>1));?>">租赁</a>
-                    <a href="<?php echo U('Index/service',array(id=>2));?>">销售</a>
-                    <a href="<?php echo U('Index/service',array(id=>3));?>">转让</a>
+                    <h1><a href="<?php echo U('Index/service');?>#lease">专业服务</a></h1>
+                  <a href="<?php echo U('Index/service');?>#lease">租赁</a>
+                  <a href="<?php echo U('Index/service');?>#sell">销售</a>
+                  <a href="<?php echo U('Index/service');?>#transfer">转让</a>
                 </li>
                 <li>
                     <h1><a href="<?php echo U('Index/question');?>">专家在线</a></h1>
