@@ -2,7 +2,8 @@
 <html>
 <head>
     <title>China robot</title>
-    <link rel="stylesheet" href="<?php echo W('Lessc',array(input=>'/public/less/style.less'));?>"/>
+    <!--<link rel="stylesheet" href="<?php echo W('Lessc',array(input=>'/public/less/style.less'));?>"/>-->
+  <link rel="stylesheet" href="__PUBLIC__/css/style.css"/>
     <!--[if lt IE 9]><script type="text/javascript">"abbr,article,aside,audio,bdi,canvas,data,datalist,details,figcaption,figure,footer,header,hgroup,mark,meter,nav,output,progress,section,summary,subline,time,video".replace(/\w+/g,function(n){document.createElement(n)})</script><![endif]-->
     <script type="text/javascript" src="__PUBLIC__/js/lib/sea.js" id="seajsnode"></script>
 
